@@ -15,7 +15,7 @@ week = html %>%
     html_nodes(".header-text") %>%
     html_text()
 week = gsub(",", "", strsplit(week, " ")[[1]][2])
-week = as.numeric(as.character(week))
+week = as.integer(as.character(week))
 
 # scrape teams
 team = html %>%
