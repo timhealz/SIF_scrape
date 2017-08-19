@@ -1,0 +1,255 @@
+team_id,true_team_name,oddsshark_team,espn_team_name,mascot,city,state,conference,division,primary_color_id,secondary_color_id
+1,Abilene Christian,Abilene Christian,Abilene Christian,Wildcats,Abilene,TX,Southland,FCS,#4E2683,#FFFFFF
+2,Air Force,Air Force,Air Force,Falcons,Colorado Springs,CO,Mountain West,FBS,#00308f,#a6a6a8
+3,Akron,Akron,Akron,Zips,Akron,OH,MAC,FBS,#002147,#918b4c
+4,Alabama,Alabama,Alabama,Crimson Tide,Tuscaloosa,AL,SEC,FBS,#9e1b32,#FFFFFF
+5,Alabama A&M,Alabama A&M,Alabama A&M,Bulldogs,Normal,AL,SWAC,FCS,#750000,#FFFFFF
+6,Alabama State,Alabama State,Alabama State,Hornets,Montgomery,AL,SWAC,FCS,#FECB09,#231F20
+7,Albany,Albany-NY,Albany,Great Danes,Albany,NY,CAA,FCS,#3D2777,#FCBB0D
+8,Alcorn State,Alcorn State,Alcorn State,Braves,Lorman,MS,SWAC,FCS,#42094A,#FFFFFF
+9,Appalachian State,Appalachian State,Appalachian State,Mountaineers,Boone,NC,Sun Belt,FBS,#222222,#ffcc00
+10,Arizona,Arizona,Arizona,Wildcats,Tucson,AZ,Pac-12,FBS,#AB0520,#0C234B
+11,Arizona State,Arizona State,Arizona State,Sun Devils,Tempe,AZ,Pac-12,FBS,#990033,#FFB310
+12,Arkansas,Arkansas,Arkansas,Razorbacks,Fayetteville,AR,SEC,FBS,#9D2235,#FFFFFF
+13,Arkansas State,Arkansas State,Arkansas State,Red Wolves,Jonesboro,AR,Sun Belt,FBS,#cc092f,#000000
+14,Arkansas-Pine Bluff,Arkansas-Pine Bluff,Arkansas-Pine Bluff,Golden Lions,Pine Bluff,AR,SWAC,FCS,#000000,#EEBB00
+15,Army West Point,Army,Army,Black Knights,West Point,NY,Independent,FBS,#000000,#d3bc8d
+16,Auburn,Auburn,Auburn,Tigers,Auburn,AL,SEC,FBS,#0C2340,#F26522
+17,Austin Peay,Austin Peay,Austin Peay,Governors,Clarksville,TN,Ohio Valley,FCS,#8E0B0B,#FFFFFF
+18,Ball State,Ball State,Ball State,Cardinals,Muncie,IN,MAC,FBS,#BA0C2F,#FFFFFF
+19,Baylor,Baylor,Baylor,Bears,Waco,TX,Big 12,FBS,#003015,#fecb00
+20,Bethune-Cookman,Bethune-Cookman,Bethune-Cookman,Wildcats,Daytona Beach,FL,MEAC,FCS,#841B35,#FFFFFF
+21,Boise State,Boise State,Boise State,Broncos,Boise,ID,Mountain West,FBS,#09347A,#F1632A
+22,Boston College,Boston College,Boston College,Eagles,Chestnut Hill,MA,ACC,FBS,#910039,#B38F59
+23,Bowling Green,Bowling Green,Bowling Green,Falcons,Bowling Green,OH,MAC,FBS,#4F2C1D,#FE5000
+24,Brown,,Brown,Bears,Providence,RI,Ivy,FCS,#543019,#8A1E04
+25,Bryant,,Bryant,Bulldogs,Smithfield,RI,Northeast,FCS,#702D07,#231F20
+26,Bucknell,,Bucknell,Bison,Lewisburg,PA,Patriot,FCS,#000064,#FF7000
+27,Buffalo,Buffalo,Buffalo,Bulls,Buffalo,NY,MAC,FBS,#005bbb,#FFFFFF
+28,Butler,,Butler,Bulldogs,Indianapolis,IN,Pioneer,FCS,#0D1361,#FFFFFF
+29,BYU,BYU,BYU,Cougars,Provo,UT,Independent,FBS,#002255,#FFFFFF
+30,Cal Poly,Cal Poly,Cal Poly,Mustangs,San Luis Obispo,CA,Big Sky,FCS,#123C31,#FFF1D0
+31,California,California,California,Golden Bears,Berkeley,CA,Pac-12,FBS,#041E42,#FFC72C
+32,Campbell,,Campbell,Fighting Camels,Buies Creek,NC,Pioneer,FCS,#000000,#FF8931
+33,Central Arkansas,Central Arkansas,Central Arkansas,Bears,Conway,AR,Southland,FCS,#4F2683,#FFFFFF
+34,Central Connecticut,Central Connecticut State,Central Connecticut,Blue Devils,New Britain,CT,Northeast,FCS,#1B49A2,#FFFFFF
+35,Central Michigan,Central Michigan,Central Michigan,Chippewas,Mount Pleasant,MI,MAC,FBS,#6a0032,#ffc82e
+36,Charleston Southern,Charleston Southern,Charleston Southern,Buccaneers,North Charleston,SC,Big South,FCS,#00447C,#FFFFFF
+37,Charlotte,Charlotte,Charlotte,49ers,Charlotte,NC,C-USA,FBS,#046a38,#FFFFFF
+38,Chattanooga,Chattanooga,Chattanooga,Mocs,Chattanooga,TN,Southern,FCS,#EEB311,#00437B
+39,Cincinnati,Cincinnati,Cincinnati,Bearcats,Cincinnati,OH,American,FBS,#000000,#E00122
+40,Clemson,Clemson,Clemson,Tigers,Clemson,SC,ACC,FBS,#F56600,#522D80
+41,Coastal Carolina,Coastal Carolina,Coastal Carolina,Chanticleers,Conway,SC,Independent,FBS,#009297,#FFFFFF
+42,Colgate,Colgate,Colgate,Raiders,Hamilton,NY,Patriot,FCS,#8B011D,#FFFFFF
+43,Colorado,Colorado,Colorado,Buffaloes,Boulder,CO,Pac-12,FBS,#000000,#CFB87C
+44,Colorado State,Colorado State,Colorado State,Rams,Fort Collins,CO,Mountain West,FBS,#1E4D2B,#C8C372
+45,Columbia,,Columbia,Lions,New York,NY,Ivy,FCS,#7CC2F1,#004B85
+46,Connecticut,UCONN,Connecticut,Huskies,Storrs,CT,American,FBS,#000E2F,#FFFFFF
+47,Cornell,,Cornell,Big Red,Ithaca,NY,Ivy,FCS,#D60027,#FFFFFF
+48,Dartmouth,,Dartmouth,Big Green,Hanover,NH,Ivy,FCS,#005730,#FFFFFF
+49,Davidson,,Davidson,Wildcats,Davidson,NC,Pioneer,FCS,#000000,#E51937
+50,Dayton,,Dayton,Flyers,Dayton,OH,Pioneer,FCS,#151A66,#E70808
+51,Delaware,Delaware,Delaware,Fightin' Blue Hens,Newark,DE,CAA,FCS,#01539B,#FFDD00
+52,Delaware State,Delaware State,Delaware State,Hornets,Dover,DE,MEAC,FCS,#F11A2D,#01A9EF
+53,Drake,,Drake,Bulldogs,Des Moines,IA,Pioneer,FCS,#0053A0,#FFFFFF
+54,Duke,Duke,Duke,Blue Devils,Durham,NC,ACC,FBS,#001A57,#FFFFFF
+55,Duquesne,,Duquesne,Dukes,Pittsburgh,PA,Northeast,FCS,#002D62,#D31145
+56,East Carolina,East Carolina,East Carolina,Pirates,Greenville,NC,American,FBS,#592A8A,#FDC82F
+57,East Tennessee State,,East Tennessee State,Buccaneers,Johnson City,TN,Southern,FCS,#025BA3,#BE9434
+58,Eastern Illinois,Eastern Illinois,Eastern Illinois,Panthers,Charleston,IL,Ohio Valley,FCS,#000000,#FFFFFF
+59,Eastern Kentucky,Eastern Kentucky,Eastern Kentucky,Colonels,Richmond,KY,Ohio Valley,FCS,#730B27,#FFFFFF
+60,Eastern Michigan,Eastern Michigan,Eastern Michigan,Eagles,Ypsilanti,MI,MAC,FBS,#006633,#FFFFFF
+61,Eastern Washington,Eastern Washington,Eastern Washington,Eagles,Cheney,WA,Big Sky,FCS,#D72E34,#FFFFFF
+62,Elon,Elon,Elon,Phoenix,Elon,NC,CAA,FCS,#040404,#AEA460
+63,FIU,Florida International (FIU),Florida Intl,Panthers,Miami,FL,C-USA,FBS,#081E3F,#B6862C
+64,Florida,Florida,Florida,Gators,Gainesville,FL,SEC,FBS,#0021a5,#FA4616
+65,Florida A&M,Florida A&M,Florida A&M,Rattlers,Tallahassee,FL,MEAC,FCS,#F89728,#00B552
+66,Florida Atlantic,Florida Atlantic,Florida Atlantic,Owls,Boca Raton,FL,C-USA,FBS,#003366,#CC0000
+67,Florida State,Florida State,Florida State,Seminoles,Tallahassee,FL,ACC,FBS,#782F40,#CEB888
+68,Fordham,Fordham,Fordham,Rams,New York,NY,Patriot,FCS,#830032,#FFFFFF
+69,Fresno State,Fresno State,Fresno State,Bulldogs,Fresno,CA,Mountain West,FBS,#C41230,#002C76
+70,Furman,Furman,Furman,Paladins,Greenville,SC,Southern,FCS,#3A1769,#FFFFFF
+71,Gardner-Webb,Gardner-Webb,Gardner-Webb,Runnin' Bulldogs,Boiling Springs,NC,Big South,FCS,#BF2C37,#FFFFFF
+72,Georgetown,,Georgetown,Hoyas,Washington,DC,Patriot,FCS,#49487C,#FFFFFF
+73,Georgia,Georgia,Georgia,Bulldogs,Athens,GA,SEC,FBS,#DA291C,#000000
+74,Georgia Southern,Georgia Southern,Georgia Southern,Eagles,Statesboro,GA,Sun Belt,FBS,#011e41,#FFFFFF
+75,Georgia State,Georgia State,Georgia State,Panthers,Atlanta,GA,Sun Belt,FBS,#0039A6,#FFFFFF
+76,Georgia Tech,Georgia Tech,Georgia Tech,Yellow Jackets,Atlanta,GA,ACC,FBS,#C59353,#FFFFFF
+77,Grambling,Grambling State,Grambling,Tigers,Grambling,LA,SWAC,FCS,#F88400,#101008
+78,Hampton,Hampton,Hampton,Pirates,Hampton,VA,MEAC,FCS,#0067AC,#FFFFFF
+79,Harvard,,Harvard,Crimson,Cambridge,MA,Ivy,FCS,#C41130,#FFFFFF
+80,Hawai'i,Hawaii,Hawai'i,Rainbow Warriors,Honolulu,HI,Mountain West,FBS,#004231,#000000
+81,Holy Cross,Holy Cross,Holy Cross,Crusaders,Worcester,MA,Patriot,FCS,#090909,#1B2154
+82,Houston,Houston,Houston,Cougars,Houston,TX,American,FBS,#C92839,#FFFFFF
+83,Houston Baptist,Houston Baptist,Houston Baptist,Huskies,Houston,TX,Southland,FCS,#702D07,#00529C
+84,Howard,Howard,Howard,Bison,Washington,DC,MEAC,FCS,#EE3A43,#09347A
+85,Idaho,Idaho,Idaho,Vandals,Moscow,ID,Sun Belt,FBS,#9F9D9D,#B18E5F
+86,Idaho State,Idaho State,Idaho State,Bengals,Pocatello,ID,Big Sky,FCS,#FF8400,#000000
+87,Illinois,Illinois,Illinois,Fighting Illini,Urbana–Champaign,IL,Big Ten,FBS,#e04e39,#13294b
+88,Illinois State,,Illinois State,Redbirds,Normal,IL,Missouri Valley,FCS,#E61731,#010000
+89,Incarnate Word,Incarnate Word,Incarnate Word,Cardinals,San Antonio,TX,Southland,FCS,#CB333B,#FFFFFF
+90,Indiana,Indiana,Indiana,Hoosiers,Bloomington,IN,Big Ten,FBS,#990000,#EEEDEB
+91,Indiana State,Indiana State,Indiana State,Sycamores,Terre Haute,IN,Missouri Valley,FCS,#00669A,#FFFFFF
+92,Iowa,Iowa,Iowa,Hawkeyes,Iowa City,IA,Big Ten,FBS,#000000,#FFE100
+93,Iowa State,Iowa State,Iowa State,Cyclones,Ames,IA,Big 12,FBS,#a6192e,#FDC82F
+94,Jackson State,Jackson State,Jackson State,Tigers,Jackson,MS,SWAC,FCS,#123297,#FFFFFF
+95,Jacksonville,,Jacksonville,Dolphins,Jacksonville,FL,Pioneer,FCS,#008568,#FFFFFF
+96,Jacksonville State,Jacksonville State,Jacksonville State,Gamecocks,Jacksonville,AL,Ohio Valley,FCS,#E53F40,#FFFFFF
+97,James Madison,James Madison,James Madison,Dukes,Harrisonburg,VA,CAA,FCS,#263997,#D5A10E
+98,Kansas,Kansas,Kansas,Jayhawks,Lawrence,KS,Big 12,FBS,#0051BA,#E8000D
+99,Kansas State,Kansas State,Kansas State,Wildcats,Manhattan,KS,Big 12,FBS,#512888,#FFFFFF
+100,Kennesaw State,,Kennesaw State,Owls,Kennesaw,GA,Big South,FCS,#231F20,#F0B410
+101,Kent State,Kent State,Kent State,Golden Flashes,Kent,OH,MAC,FBS,#002664,#EAAB00
+102,Kentucky,Kentucky,Kentucky,Wildcats,Lexington,KY,SEC,FBS,#0033A0,#FFFFFF
+103,Lafayette,,Lafayette,Leopards,Easton,PA,Patriot,FCS,#9A0024,#CDBDA3
+104,Lamar,Lamar,Lamar,Cardinals,Beaumont,TX,Southland,FCS,#231F20,#ED1B2E
+105,Lehigh,,Lehigh,Mountain Hawks,Bethlehem,PA,Patriot,FCS,#994708,#CFAB7A
+106,Liberty,Liberty,Liberty,Flames,Lynchburg,VA,Big South,Transitioning to FBS,#02298A,#A70F00
+107,Louisiana Tech,LA Tech,Louisiana Tech,Bulldogs,Ruston,LA,C-USA,FBS,#003087,#CB333B
+108,Louisiana-Lafayette,Louisiana-Lafayette,Louisiana,Ragin' Cajuns,Lafayette,LA,Sun Belt,FBS,#ce181e,#FFFFFF
+109,Louisiana-Monroe,Louisiana-Monroe,Louisiana Monroe,Warhawks,Monroe,LA,Sun Belt,FBS,#800029,#bd955a
+110,Louisville,Louisville,Louisville,Cardinals,Louisville,KY,ACC,FBS,#AD0000,#000000
+111,LSU,LSU,LSU,Tigers,Baton Rouge,LA,SEC,FBS,#582c83,#ffc72c
+112,Maine,Maine,Maine,Black Bears,Orono,ME,CAA,FCS,#2E8DC4,#FFFFFF
+113,Marist,,Marist,Red Foxes,Poughkeepsie,NY,Pioneer,FCS,#EF1216,#FFFFFF
+114,Marshall,Marshall,Marshall,Thundering Herd,Huntington,WV,C-USA,FBS,#006140,#FFFFFF
+115,Maryland,Maryland,Maryland,Terrapins,College Park,MD,Big Ten,FBS,#c8102e,#FFFFFF
+116,Massachusetts,Massachusetts,Massachusetts,Minutemen,Amherst,MA,Independent,FBS,#881c1c,#FFFFFF
+117,McNeese,,McNeese,Cowboys,Lake Charles,LA,Southland,FCS,#FFD51D,#00529C
+118,Memphis,Memphis,Memphis,Tigers,Memphis,TN,American,FBS,#0D3182,#888C8F
+119,Mercer,Mercer,Mercer,Bears,Macon,GA,Southern,FCS,#FF7F27,#FFFFFF
+120,Miami (FL),Miami-FL,Miami,Hurricanes,Coral Gables,FL,ACC,FBS,#005030,#f47321
+121,Miami (OH),Miami-OH,Miami (OH),RedHawks,Oxford,OH,MAC,FBS,#B61E2E,#FFFFFF
+122,Michigan,Michigan,Michigan,Wolverines,Ann Arbor,MI,Big Ten,FBS,#ffcb05,#00274c
+123,Michigan State,Michigan State,Michigan State,Spartans,East Lansing,MI,Big Ten,FBS,#18453B,#FFFFFF
+124,Middle Tennessee,Middle Tennessee,Middle Tennessee,Blue Raiders,Murfreesboro,TN,C-USA,FBS,#0066CC,#FFFFFF
+125,Minnesota,Minnesota,Minnesota,Golden Gophers,Minneapolis,MN,Big Ten,FBS,#7a0019,#ffcc33
+126,Mississippi State,Mississippi State,Mississippi State,Bulldogs,Starkville,MS,SEC,FBS,#660000,#FFFFFF
+127,Mississippi Valley State,,Mississippi Valley State,Delta Devils,Itta Bena,MS,SWAC,FCS,#054105,#FFFFFF
+128,Missouri,Missouri,Missouri,Tigers,Columbia,MO,SEC,FBS,#000000,#F1B82D
+129,Missouri State,Missouri State,Missouri State,Bears,Springfield,MO,Missouri Valley,FCS,#5F0000,#FFFFFF
+130,Monmouth,,Monmouth,Hawks,West Long Branch,NJ,Big South,FCS,#051844,#FFFFFF
+131,Montana,Montana,Montana,Grizzlies,Missoula,MT,Big Sky,FCS,#751D4A,#FFFFFF
+132,Montana State,Montana State,Montana State,Bobcats,Bozeman,MT,Big Sky,FCS,#003875,#D3AF7E
+133,Morehead State,,Morehead State,Eagles,Morehead,KY,Pioneer,FCS,#094FA3,#FFFFFF
+134,Morgan State,Morgan State,Morgan State,Bears,Baltimore,MD,MEAC,FCS,#014786,#F47937
+135,Murray State,Murray State,Murray State,Racers,Murray,KY,Ohio Valley,FCS,#002148,#FFE000
+136,Navy,Navy,Navy,Midshipmen,Annapolis,MD,American,FBS,#00205b,#c5b783
+137,NC State,NC State,NC State,Wolfpack,Raleigh,NC,ACC,FBS,#CC0000,#FFFFFF
+138,Nebraska,Nebraska,Nebraska,Cornhuskers,Lincoln,NE,Big Ten,FBS,#e41c38,#fdf2d9
+139,Nevada,Nevada,Nevada,Wolf Pack,Reno,NV,Mountain West,FBS,#003366,#807f84
+140,New Hampshire,New Hampshire,New Hampshire,Wildcats,Durham,NH,CAA,FCS,#004990,#FFFFFF
+141,New Mexico,New Mexico,New Mexico,Lobos,Albuquerque,NM,Mountain West,FBS,#B71234,#C3C8C8
+142,New Mexico State,New Mexico State,New Mexico State,Aggies,Las Cruces,NM,Sun Belt,FBS,#8c0b42,#FFFFFF
+143,Nicholls,Nicholls State,Nicholls,Colonels,Thibodaux,LA,Southland,FCS,#C41230,#FFFFFF
+144,NIU,NIU,Northern Illinois,Huskies,DeKalb,IL,MAC,FBS,#ba0c2f,#000000
+145,Norfolk State,,Norfolk State,Spartans,Norfolk,VA,MEAC,FCS,#046546,#FFFFFF
+146,North Carolina,North Carolina,North Carolina,Tar Heels,Chapel Hill,NC,ACC,FBS,#7BAFD4,#FFFFFF
+147,North Carolina A&T,North Carolina A&T,North Carolina A&T,Aggies,Greensboro,NC,MEAC,FCS,#0505AA,#FFFFFF
+148,North Carolina Central,North Carolina Central,North Carolina Central,Eagles,Durham,NC,MEAC,FCS,#880023,#1A1818
+149,North Dakota,North Dakota,North Dakota,Fighting Hawks,Grand Forks,ND,Big Sky,FCS,#702D07,#FFFFFF
+150,North Dakota State,,North Dakota State,Bison,Fargo,ND,Missouri Valley,FCS,#01402A,#FEBB1C
+151,North Texas,North Texas,North Texas,Mean Green,Denton,TX,C-USA,FBS,#00853E,#FFFFFF
+152,Northern Arizona,Northern Arizona,Northern Arizona,Lumberjacks,Flagstaff,AZ,Big Sky,FCS,#003976,#FFFFFF
+153,Northern Colorado,Northern Colorado,Northern Colorado,Bears,Greeley,CO,Big Sky,FCS,#13558D,#F9D245
+154,Northern Iowa,Northern Iowa,Northern Iowa,Panthers,Cedar Falls,IA,Missouri Valley,FCS,#473282,#E4AE2F
+155,Northwestern,Northwestern,Northwestern,Wildcats,Evanston,IL,Big Ten,FBS,#4E2A84,#FFFFFF
+156,Northwestern State,Northwestern State,Northwestern State,Demons,Natchitoches,LA,Southland,FCS,#492F91,#F68428
+157,Notre Dame,Notre Dame,Notre Dame,Fighting Irish,South Bend,IN,Independent,FBS,#0C2340,#C99700
+158,Ohio,Ohio,Ohio,Bobcats,Athens,OH,MAC,FBS,#00694E,#FFFFFF
+159,Ohio State,Ohio State,Ohio State,Buckeyes,Columbus,OH,Big Ten,FBS,#bb0000,#666666
+160,Oklahoma,Oklahoma,Oklahoma,Sooners,Norman,OK,Big 12,FBS,#841617,#FDF9D8
+161,Oklahoma State,Oklahoma State,Oklahoma State,Cowboys,Stillwater,OK,Big 12,FBS,#FF7300,#000000
+162,Old Dominion,Old Dominion,Old Dominion,Monarchs,Norfolk,VA,C-USA,FBS,#05344C,#7c878e
+163,Ole Miss,Ole Miss,Ole Miss,Rebels,Oxford,MS,SEC,FBS,#00205b,#c8102e
+164,Oregon,Oregon,Oregon,Ducks,Eugene,OR,Pac-12,FBS,#154733,#FEE123
+165,Oregon State,Oregon State,Oregon State,Beavers,Corvallis,OR,Pac-12,FBS,#C34500,#000000
+166,Penn State,Penn State,Penn State,Nittany Lions,State College,PA,Big Ten,FBS,#041e42,#FFFFFF
+167,Pennsylvania,,Pennsylvania,Quakers,Philadelphia,PA,Ivy,FCS,#082A74,#FFFFFF
+168,Pittsburgh,Pittsburgh,Pittsburgh,Panthers,Pittsburgh,PA,ACC,FBS,#1c2957,#cdb87d
+169,Portland State,Portland State,Portland State,Vikings,Portland,OR,Big Sky,FCS,#005E60,#BFCFD8
+170,Prairie View,,Prairie View,Panthers,Prairie View,TX,SWAC,FCS,#5A185C,#FFBD29
+171,Presbyterian College,Presbyterian,Presbyterian College,Blue Hose,Clinton,SC,Big South,FCS,#194896,#FFFFFF
+172,Princeton,,Princeton,Tigers,Princeton,NJ,Ivy,FCS,#F9A13A,#231F20
+173,Purdue,Purdue,Purdue,Boilermakers,West Lafayette,IN,Big Ten,FBS,#000000,#CEB888
+174,Rhode Island,Rhode Island,Rhode Island,Rams,Kingston,RI,CAA,FCS,#3691C6,#003559
+175,Rice,Rice,Rice,Owls,Houston,TX,C-USA,FBS,#002469,#5e6062
+176,Richmond,,Richmond,Spiders,Richmond,VA,CAA,FCS,#9E0712,#003256
+177,Robert Morris,,Robert Morris,Colonials,Moon Township,PA,Northeast,FCS,#00214D,#AF1C2E
+178,Rutgers,Rutgers,Rutgers,Scarlet Knights,Piscataway,NJ,Big Ten,FBS,#EE363D,#FFFFFF
+179,Sacramento State,Sacramento State,Sacramento State,Hornets,Sacramento,CA,Big Sky,FCS,#00573C,#FFFFFF
+180,Sacred Heart,,Sacred Heart,Pioneers,Fairfield,CT,Northeast,FCS,#CE1040,#FFFFFF
+181,Sam Houston State,,Sam Houston State,Bearkats,Huntsville,TX,Southland,FCS,#F78F1E,#231F20
+182,Samford,Samford,Samford,Bulldogs,Birmingham,AL,Southern,FCS,#005485,#D2D4D5
+183,San Diego,,San Diego,Toreros,San Diego,CA,Pioneer,FCS,#2f99d4,#00275d
+184,San Diego State,San Diego State,San Diego State,Aztecs,San Diego,CA,Mountain West,FBS,#C41230,#000000
+185,San Jose State,San Jose State,San José State,Spartans,San Jose,CA,Mountain West,FBS,#0055A2,#FFFFFF
+186,Savannah State,,Savannah State,Tigers,Savannah,GA,MEAC,FCS,#280298,#FF0000
+187,SMU,SMU,SMU,Mustangs,University Park,TX,American,FBS,#354ca1,cd2027
+188,South Alabama,South Alabama,South Alabama,Jaguars,Mobile,AL,Sun Belt,FBS,#00205B,#FFFFFF
+189,South Carolina,South Carolina,South Carolina,Gamecocks,Columbia,SC,SEC,FBS,#73000A,#000000
+190,South Carolina State,,South Carolina State,Bulldogs,Orangeburg,SC,MEAC,FCS,#7E1812,#080D35
+191,South Dakota,South Dakota,South Dakota,Coyotes,Vermillion,SD,Missouri Valley,FCS,#CD1241,#231F20
+192,South Dakota State,,South Dakota State,Jackrabbits,Brookings,SD,Missouri Valley,FCS,#005DAB,#FFDE00
+193,South Florida,USF,South Florida,Bulls,Tampa,FL,American,FBS,#006747,#CFC493
+194,Southeast Missouri State,Southeast Missouri State,Southeast Missouri State,Redhawks,Cape Girardeau,MO,Ohio Valley,FCS,#E2373E,#231F20
+195,Southeastern Louisiana,Southeastern Louisiana,Southeastern Louisiana,Lions,Hammond,LA,Southland,FCS,#007550,#F0B510
+196,Southern,Southern University,Southern,Jaguars,Baton Rouge,LA,SWAC,FCS,#004B97,#FFCD02
+197,Southern Illinois,Southern Illinois,Southern Illinois,Salukis,Carbondale,IL,Missouri Valley,FCS,#85283D,#000000
+198,Southern Miss,Southern Miss,Southern Mississippi,Golden Eagles,Hattiesburg,MS,C-USA,FBS,#000000,#FDC737
+199,Southern Utah,Southern Utah,Southern Utah,Thunderbirds,Cedar City,UT,Big Sky,FCS,#D12947,#050607
+200,St Francis (PA),,St Francis (PA),Red Flash,Loretto,PA,Northeast,FCS,#F41650,#1E1719
+201,Stanford,Stanford,Stanford,Cardinal,Stanford,CA,Pac-12,FBS,#A80532,#FFFFFF
+202,Stephen F. Austin,Stephen F. Austin,Stephen F. Austin,Lumberjacks,Nacogdoches,TX,Southland,FCS,#393996,#EE3A42
+203,Stetson,,Stetson,Hatters,DeLand,FL,Pioneer,FCS,#18581C,#FFFFFF
+204,Stony Brook,Stony Brook,Stony Brook,Seawolves,Stony Brook,NY,CAA,FCS,#115F9A,#B33A4E
+205,Syracuse,Syracuse,Syracuse,Orange,Syracuse,NY,ACC,FBS,#D44500,#FFFFFF
+206,TCU,TCU,TCU,Horned Frogs,Fort Worth,TX,Big 12,FBS,#4d1979,#FFFFFF
+207,Temple,Temple,Temple,Owls,Philadelphia,PA,American,FBS,#990033,#FFFFFF
+208,Tennessee,Tennessee,Tennessee,Volunteers,Knoxville,TN,SEC,FBS,#FF8200,#FFFFFF
+209,Tennessee State,Tennessee State,Tennessee State,Tigers,Nashville,TN,Ohio Valley,FCS,#383C84,#FFFFFF
+210,Tennessee Tech,Tennessee Tech,Tennessee Tech,Golden Eagles,Cookeville,TN,Ohio Valley,FCS,#5A4099,#FFDE00
+211,Texas,Texas,Texas,Longhorns,Austin,TX,Big 12,FBS,#BF5700,#FFFFFF
+212,Texas A&M,Texas A&M,Texas A&M,Aggies,College Station,TX,SEC,FBS,#500000,#FFFFFF
+213,Texas Southern,,Texas Southern,Tigers,Houston,TX,SWAC,FCS,#6A0403,#FFFFFF
+214,Texas State,Texas State,Texas State,Bobcats,San Marcos,TX,Sun Belt,FBS,#501214,#8D734A
+215,Texas Tech,Texas Tech,Texas Tech,Red Raiders,Lubbock,TX,Big 12,FBS,#CC0000,#000000
+216,The Citadel,The Citadel,The Citadel,Bulldogs,Charleston,SC,Southern,FCS,#002B5C,#FFFFFF
+217,Toledo,Toledo,Toledo,Rockets,Toledo,OH,MAC,FBS,#002569,#ffce00
+218,Towson,Towson,Towson,Tigers,Towson,MD,CAA,FCS,#FFC229,#1E1C1C
+219,Troy,Troy,Troy,Trojans,Troy,AL,Sun Belt,FBS,#862633,#8a8d8f
+220,Tulane,Tulane,Tulane,Green Wave,New Orleans,LA,American,FBS,#005837,#0082ba
+221,Tulsa,Tulsa,Tulsa,Golden Hurricane,Tulsa,OK,American,FBS,#c5b783,#002d72
+222,UAB,UAB,UAB,Blazers,Birmingham,AL,C-USA,FBS,#054338,#040504
+223,UC Davis,UC Davis,UC Davis,Aggies,Davis,CA,Big Sky,FCS,#183563,#CB992B
+224,UCF,UCF,UCF,Knights,Orlando,FL,American,FBS,#000000,#BA9B37
+225,UCLA,UCLA,UCLA,Bruins,Los Angeles,CA,Pac-12,FBS,#0072ce,#ffc72c
+226,UNLV,UNLV,UNLV,Rebels,Las Vegas,NV,Mountain West,FBS,#B10202,#666666
+227,USC,USC,USC,Trojans,Los Angeles,CA,Pac-12,FBS,#990000,#FFCC00
+228,UT Martin,Tennessee-Martin,UT Martin,Skyhawks,Martin,TN,Ohio Valley,FCS,#FF6700,#000099
+229,Utah,Utah,Utah,Utes,Salt Lake City,UT,Pac-12,FBS,#CC0000,#FFFFFF
+230,Utah State,Utah State,Utah State,Aggies,Logan,UT,Mountain West,FBS,#0F2439,#FFFFFF
+231,UTEP,UTEP,UTEP,Miners,El Paso,TX,C-USA,FBS,#002147,#FF5600
+232,UTSA,UTSA,UT San Antonio,Roadrunners,San Antonio,TX,C-USA,FBS,#0c2340,#FFFFFF
+233,Valparaiso,,Valparaiso,Crusaders,Valparaiso,IN,Pioneer,FCS,#794500,#FFD204
+234,Vanderbilt,Vanderbilt,Vanderbilt,Commodores,Nashville,TN,SEC,FBS,#000000,#997F3D
+235,Villanova,Villanova,Villanova,Wildcats,Villanova,PA,CAA,FCS,#123d7C,#FFFFFF
+236,Virginia,Virginia,Virginia,Cavaliers,Charlottesville,VA,ACC,FBS,#041e42,#fa4616
+237,Virginia Tech,Virginia Tech,Virginia Tech,Hokies,Blacksburg,VA,ACC,FBS,#660000,#FF6600
+238,VMI,VMI,VMI,Keydets,Lexington,VA,Southern,FCS,#000000,#E52D37
+239,Wagner,Wagner,Wagner,Seahawks,New York,NY,Northeast,FCS,#00483A,#FFFFFF
+240,Wake Forest,Wake Forest,Wake Forest,Demon Deacons,Winston-Salem,NC,ACC,FBS,#000000,#9E7E38
+241,Washington,Washington,Washington,Huskies,Seattle,WA,Pac-12,FBS,#363c74,#e8d3a2
+242,Washington State,Washington State,Washington State,Cougars,Pullman,WA,Pac-12,FBS,#97002F,#FFFFFF
+243,Weber State,Weber State,Weber State,Wildcats,Ogden,UT,Big Sky,FCS,#29086B,#FFFFFF
+244,West Virginia,West Virginia,West Virginia,Mountaineers,Morgantown,WV,Big 12,FBS,#002855,#EAAA00
+245,Western Carolina,Western Carolina,Western Carolina,Catamounts,Cullowhee,NC,Southern,FCS,#492F91,#FFFFFF
+246,Western Illinois,Western Illinois,Western Illinois,Leathernecks,Macomb,IL,Missouri Valley,FCS,#6812BB,#DFFF16
+247,Western Kentucky,WKU,Western Kentucky,Hilltoppers,Bowling Green,KY,C-USA,FBS,#B01E24,#FFFFFF
+248,Western Michigan,Western Michigan,Western Michigan,Broncos,Kalamazoo,MI,MAC,FBS,#6c4023,#b5a167
+249,William & Mary,William & Mary,William & Mary,Tribe,Williamsburg,VA,CAA,FCS,#103217,#FDF71C
+250,Wisconsin,Wisconsin,Wisconsin,Badgers,Madison,WI,Big Ten,FBS,#c5050c,#FFFFFF
+251,Wofford,Wofford,Wofford,Terriers,Spartanburg,SC,Southern,FCS,#000000,#FFD700
+252,Wyoming,Wyoming,Wyoming,Cowboys,Laramie,WY,Mountain West,FBS,#492f24,#ffc425
+253,Yale,,Yale,Bulldogs,New Haven,CT,Ivy,FCS,#004A81,#040404
+254,Youngstown State,Youngstown State,Youngstown State,Penguins,Youngstown,OH,Missouri Valley,FCS,#E51937,#231F20
