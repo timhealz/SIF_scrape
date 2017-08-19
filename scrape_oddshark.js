@@ -1,13 +1,15 @@
-// scrape_oddshark.js
-
-var webPage = require('webpage');
-var page = webPage.create();
-
+var url ='http://www.oddsshark.com/ncaaf/scores';
+var page = new WebPage()
 var fs = require('fs');
-var path = 'oddshark.html'
 
-page.open('http://www.oddsshark.com/ncaaf/scores', function (status) {
-  var content = page.content;
-  fs.write(path,content,'w')
-  phantom.exit();
+
+page.open(url, function (status) {
+        just_wait();
 });
+
+function just_wait() {
+    setTimeout(function() {
+               fs.write('oddshark.html', page.content, 'w');
+            phantom.exit();
+    }, 2500);
+}
