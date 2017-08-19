@@ -11,10 +11,11 @@ system("./phantomjs scrape_oddshark.js")
 html = read_html('oddshark.html')
 
 # scrape week
-week = html %>%
+week_raw = html %>%
     html_nodes(".header-text") %>%
-    html_text()
-week = gsub(",", "", strsplit(week, " ")[[1]][2])
+    html_text(trim = TRUE)
+dir.create(paste("./output/", week_raw, sep = ""))
+week = gsub(",", "", strsplit(week_raw, " ")[[1]][2])
 week = as.integer(as.character(week))
 
 # scrape teams
@@ -40,5 +41,5 @@ spreads$week = week
 spreads$timestamp = Sys.time()
 
 # output to .csv
-write.csv(spreads, paste("./output/Spreads_", Sys.Date(),".csv", sep = ""), row.names = FALSE)
+write.csv(spreads, paste("./output/", week_raw,"/Spreads_", Sys.Date(),".csv", sep = ""), row.names = FALSE)
 
