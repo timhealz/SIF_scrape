@@ -28,7 +28,7 @@ line = html %>%
 spreads = as.data.frame(cbind(team, line), stringsAsFactors = FALSE)
 spreads$line = gsub("EV", 0, spreads$line)
 spreads$line = as.numeric(spreads$line)
-spreads$underdog = as.integer(as.logical(spreads$line < 0))
+spreads$underdog = as.integer(as.logical(spreads$line > 0))
 spreads$timestamp = Sys.time()
 
 # output to .csv
