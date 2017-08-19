@@ -19,26 +19,26 @@ week = gsub(",", "", strsplit(week_raw, " ")[[1]][2])
 week = as.integer(as.character(week))
 
 # scrape teams
-team = html %>%
+oddsshark_team_name = html %>%
     html_nodes(".city") %>%
     html_text()
 
 # scrape lines
-line = html %>%
+spread = html %>%
     html_nodes(".value") %>%
     html_text()
 
 # bind scrapes into dataframe
-spreads = as.data.frame(cbind(team, line), stringsAsFactors = FALSE)
+spreads = as.data.frame(cbind(oddsshark_team_name, spread), stringsAsFactors = FALSE)
 
 # clean lines data
-spreads$line = gsub("EV", 0, spreads$line)
-spreads$line = as.numeric(spreads$line)
+spreads$spread = gsub("EV", 0, spreads$spread)
+spreads$spread = as.numeric(spreads$spread)
 
 # add underdog, week, and timestamp columns
-spreads$underdog = as.integer(as.logical(spreads$line > 0))
+spreads$underdog = as.integer(as.logical(spreads$spread > 0))
 spreads$week = week
-spreads$timestamp = Sys.time()
+spreads$update_ts = Sys.time()
 
 # output to .csv
 write.csv(spreads, paste("./output/", week_raw,"/Spreads_", Sys.Date(),".csv", sep = ""), row.names = FALSE)
