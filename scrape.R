@@ -25,8 +25,12 @@ line = html %>%
     html_nodes(".value") %>%
     html_text()
 
-spreads = as.data.frame(cbind(team, nick_name, line), stringsAsFactors = FALSE)
+spreads = as.data.frame(cbind(team, line), stringsAsFactors = FALSE)
+spreads$line = gsub("EV", 0, spreads$line)
+spreads$line = as.numeric(spreads$line)
+spreads$underdog = as.integer(as.logical(spreads$line < 0))
 spreads$timestamp = Sys.time()
 
 # output to .csv
 write.csv(spreads, paste("./output/Spreads_", Sys.Date(),".csv", sep = ""), row.names = FALSE)
+

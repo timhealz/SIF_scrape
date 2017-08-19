@@ -9,7 +9,7 @@ page.open(url, function (status) {
 
 function just_wait() {
     setTimeout(function() {
-               fs.write('1.html', page.content, 'w');
+               fs.write('espn.html', page.content, 'w');
             phantom.exit();
-    }, 2500);
+    }, 7000);
 }
