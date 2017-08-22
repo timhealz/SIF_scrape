@@ -53,5 +53,5 @@ spreads = spreads[order(spreads$game_id),]
 spreads$update_ts = Sys.time()
 
 # output to .csv
-# write.csv(spreads, paste("./output/", week_raw,"/Spreads_", Sys.Date(),".csv", sep = ""), row.names = FALSE)
+write.csv(spreads, paste("./output/", week_raw,"/Spreads_", Sys.Date(),".csv", sep = ""), row.names = FALSE)
 
