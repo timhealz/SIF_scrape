@@ -1,7 +1,6 @@
 # load libraries and set working directory to repo
 library(rvest)
-library(plyr)
-library(stringr)
+library(tidyr)
 setwd("~/G_WD/SIF_scrape")
 
 # run phantomjs javascript file to render javascript variables and save as html in working directory
@@ -30,28 +29,19 @@ spread = as.data.frame(str_split_fixed(spread_raw, " ", 2))
 spreads = as.data.frame(cbind(games, shorts), stringsAsFactors = FALSE)
 colnames(spreads) = c("away", "home", "away_short", "home_short")
 spreads = merge(spreads, spread, by.x = c("away_short"), by.y = c("V1"), all.x = TRUE)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+spreads = merge(spreads, spread, by.x = c("home_short"), by.y = c("V1"), all.x = TRUE)
+spreads = unite(spreads, spread, c("V2.x", "V2.y"), sep="")
+spreads$spread = gsub("NA", "", spreads$spread)
+spreads$spread = abs(as.numeric(spreads$spread))
+spreads[is.na(spreads)] = ""
+spreads$games = paste(spreads$away, spreads$home)
 
 # read teams and games mapping tables
-teams = read.csv('teams.csv', stringsAsFactors = FALSE)[, c('team_id', 'oddsshark_team')]
+teams = read.csv('teams.csv', stringsAsFactors = FALSE)[, c('team_id', 'espn_team_name')]
 games = read.csv('games.csv', stringsAsFactors = FALSE)[, c('game_id', 'home_id', 'away_id')]
 games = merge(games, teams, by.x = 'away_id' , by.y = 'team_id')
 games = merge(games, teams, by.x = 'home_id', by.y = 'team_id')
-games$games = paste(games$oddsshark_team.x, games$oddsshark_team.y)
+games$games = paste(games$espn_team_name.x, games$espn_team_name.y)
 
 spreads = merge(spreads, games[,c('game_id', 'games')], by = 'games')
 spreads = spreads[,c("game_id", "spread")]
