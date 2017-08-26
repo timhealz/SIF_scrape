@@ -107,6 +107,7 @@ print("scrape loop for times and lines...")
     lines = as.data.frame(str_split_fixed(lines, " ", 3),
                             stringsAsFactors = FALSE)
             colnames(lines) = c("egame_id", "favorite", "spread")
+            lines$spread = abs(as.numeric(lines$spread))
     
     times = as.data.frame(str_split_fixed(times, " ", 2),
                           stringsAsFactors = FALSE)
