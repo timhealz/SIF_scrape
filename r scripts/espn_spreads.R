@@ -11,7 +11,7 @@ system("./phantomjs scrape_espn.js")
 html = read_html('espn.html')
 
 # scrape week
-week_raw = "Week 1"
+week_raw = "Week 1, 2017"
 
 # scrape teams
 teams_raw = html %>%
