@@ -111,6 +111,7 @@ print("scrape loop for times and lines...")
     times = as.data.frame(str_split_fixed(times, " ", 2),
                           stringsAsFactors = FALSE)
             colnames(times) = c("egame_id", "time")
+    times$time = gsub("ET", "", times$time)
     
     linetime = merge(times, lines, by = "egame_id")
     
