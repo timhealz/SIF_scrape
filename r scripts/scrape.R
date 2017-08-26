@@ -8,7 +8,11 @@ source("./r scripts/espn_spreads.R")
 source("./r scripts/oddshark_spreads.R")
 
 espn = read.csv(
-        paste(out_path, "/espn_", Sys.Date(), ".csv", sep = ""))[,c("game_id", "espn_spread")]
+        paste(out_path, "/espn_", Sys.Date(), ".csv", sep = ""))[,c("game_id",
+                                                                    "date", 
+                                                                    "time",
+                                                                    "espn_spread"
+                                                                    )]
 oddshark = read.csv(
         paste(out_path, "/oddshark_", Sys.Date(), ".csv", sep = ""))[,c("game_id", 
                                                                         "oddshark_spread",
