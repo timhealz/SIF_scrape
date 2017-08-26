@@ -17,54 +17,85 @@ week_raw = "Week 1, 2017"
 teams_raw = html %>%
     html_nodes(".sb-team-short") %>%
     html_text()
-teams = as.data.frame(cbind(away = teams_raw[c(TRUE,FALSE)], 
-                            home = teams_raw[c(FALSE,TRUE)]), 
-                      stringsAsFactors = FALSE)
+    teams = as.data.frame(cbind(away = teams_raw[c(TRUE,FALSE)], 
+                                home = teams_raw[c(FALSE,TRUE)]), 
+                          stringsAsFactors = FALSE)
 
 # scrape team short names
 shorts_raw = html %>%
     html_nodes(".sb-team-abbrev") %>%
     html_text()
-shorts = as.data.frame(cbind(away_short = shorts_raw[c(TRUE,FALSE)], 
-                             home_short = shorts_raw[c(FALSE,TRUE)]),
-                       stringsAsFactors = FALSE)
+    shorts = as.data.frame(cbind(away_short = shorts_raw[c(TRUE,FALSE)], 
+                                 home_short = shorts_raw[c(FALSE,TRUE)]),
+                           stringsAsFactors = FALSE)
 
 # scrape espn game ids
 egame_id = html %>%
     html_nodes(".scoreboard") %>%
     html_attr("id")
-egame_id = na.omit(egame_id)
-egame_id = as.integer(egame_id)
+    egame_id = na.omit(egame_id)
+    egame_id = as.integer(egame_id)
 
-# scrape dates
+# scrape dates-times
 dates = html %>%
     html_nodes(".date-time") %>%
     html_attrs() 
-dates = unlist(lapply(test, '[[', 3))
-dates = gsub("T", " ", dates)
-dates = gsub("Z", "", dates)
-dates = as.POSIXlt(dates)
-dates = as.data.frame(str_split_fixed(dates, " ", 2),
-                      stringsAsFactors = FALSE)
-colnames(dates) = c("date", "time")
+    dates = unlist(lapply(test, '[[', 3))
+    dates = gsub("T", " ", dates)
+    dates = gsub("Z", "", dates)
+    dates = as.POSIXlt(dates)
+    dates = as.data.frame(str_split_fixed(dates, " ", 2),
+                          stringsAsFactors = FALSE)
+    colnames(dates) = c("date", "time")
+
+# scrape times
+dates = html %>%
+    html_nodes(".time") %>%
+    html_text() 
+    dates = unlist(lapply(test, '[[', 3))
+    dates = gsub("T", " ", dates)
+    dates = gsub("Z", "", dates)
+    dates = as.POSIXlt(dates)
+    dates = as.data.frame(str_split_fixed(dates, " ", 2),
+                          stringsAsFactors = FALSE)
+    colnames(dates) = c("date", "time")
 
 # bind together into games table
-games = as.data.frame(cbind(egame_id, dates, teams, shorts), stringsAsFactors = FALSE)
+games = as.data.frame(cbind(egame_id, 
+                            teams, 
+                            shorts,
+                            date = dates$date), 
+                      stringsAsFactors = FALSE)
 
 
-# loop for espn game ids and lines
+# loop for espn game ids, times, and lines
 lines = character(0)
+times = character(0)
 
-for(i in game_id){
+for(i in egame_id){
     line = html %>%
         html_nodes(paste("#", i,  " .line", sep = "")) %>%
         html_text()
     line = paste(i, line, sep = " ")
+    
+    time = html %>%
+        html_nodes(paste("#", i,  " .time", sep = "")) %>%
+        html_text()
+    time = paste(i, time, sep = " ")
+    
     lines = append(lines, line)
+    times = append(times, time)
 }
+
 lines = as.data.frame(str_split_fixed(lines, " ", 3),
                         stringsAsFactors = FALSE)
-colnames(lines) = c("egame_id", "favorite", "spread")
+        colnames(lines) = c("egame_id", "favorite", "spread")
+
+times = as.data.frame(str_split_fixed(times, " ", 2),
+                      stringsAsFactors = FALSE)
+        colnames(times) = c("egame_id", "time")
+
+lines = merge(times, lines, by = "egame_id")
 
 # merge all into spreads table
 spreads = merge(games, lines, by = "egame_id", all.x = TRUE)
@@ -75,3 +106,5 @@ spreads$update_ts = Sys.time()
 # output to .csv
 write.csv(spreads, paste("./output/", week_raw,"/Spreads_", Sys.Date(),".csv", sep = ""), 
           row.names = FALSE)
+
+
