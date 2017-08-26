@@ -11,14 +11,14 @@ espn = read.csv(
         paste(out_path, "/espn_", Sys.Date(), ".csv", sep = ""))[,c("game_id",
                                                                     "date", 
                                                                     "time",
-                                                                    "espn_spread"
+                                                                    "espn_spread",
+                                                                    "update_ts"
                                                                     )]
 oddshark = read.csv(
         paste(out_path, "/oddshark_", Sys.Date(), ".csv", sep = ""))[,c("game_id", 
-                                                                        "oddshark_spread",
-                                                                        "update_ts")]
+                                                                        "oddshark_spread")]
 
-dat = merge(espn, oddshark, by = "game_id")
+dat = merge(espn, oddshark, by = "game_id", all.x = TRUE)
 
 write.csv(dat, paste(out_path, "/", "Spreads_", Sys.Date(), ".csv", sep = ""), row.names = FALSE)
 
