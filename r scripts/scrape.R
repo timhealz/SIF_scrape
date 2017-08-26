@@ -16,5 +16,5 @@ oddshark = read.csv(
 
 dat = merge(espn, oddshark, by = "game_id")
 
-write.csv(dat, paste(out_path, "/", "Spreads_", Sys.Date(), ".csv", sep = ""))
+write.csv(dat, paste(out_path, "/", "Spreads_", Sys.Date(), ".csv", sep = ""), row.names = FALSE)
 
