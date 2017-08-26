@@ -44,6 +44,9 @@ dates = unlist(lapply(test, '[[', 3))
 dates = gsub("T", " ", dates)
 dates = gsub("Z", "", dates)
 dates = as.POSIXlt(dates)
+dates = as.data.frame(str_split_fixed(dates, " ", 2),
+                      stringsAsFactors = FALSE)
+colnames(dates) = c("date", "time")
 
 # bind together into games table
 games = as.data.frame(cbind(egame_id, dates, teams, shorts), stringsAsFactors = FALSE)
