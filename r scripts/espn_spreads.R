@@ -127,7 +127,10 @@ print("merging all...")
 print("COMPLETE")        
     
 
-# add timestamp columns
+# merge game_ids and add timestamp column
+    map = read.csv("./maps/map1.csv", header = TRUE, stringsAsFactors = FALSE)
+    spreads = merge(map, spreads, by = "egame_id")
+    spreads = spreads[order(spreads$game_id),]
     spreads$update_ts = Sys.time()
 
 # output to .csv
