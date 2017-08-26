@@ -106,8 +106,8 @@ print("scrape loop for times and lines...")
 
     lines = as.data.frame(str_split_fixed(lines, " ", 3),
                             stringsAsFactors = FALSE)
-            colnames(lines) = c("egame_id", "favorite", "spread")
-            lines$spread = abs(as.numeric(lines$spread))
+            colnames(lines) = c("egame_id", "favorite", "espn_spread")
+            lines$espn_spread = abs(as.numeric(lines$espn_spread))
     
     times = as.data.frame(str_split_fixed(times, " ", 2),
                           stringsAsFactors = FALSE)
@@ -128,7 +128,7 @@ print("COMPLETE")
     
 
 # merge game_ids and add timestamp column
-    map = read.csv("./maps/map1.csv", header = TRUE, stringsAsFactors = FALSE)
+    map = read.csv("./maps/map1.csv", header = TRUE, stringsAsFactors = FALSE)[,1:2]
     spreads = merge(map, spreads, by = "egame_id")
     spreads = spreads[order(spreads$game_id),]
     spreads$update_ts = Sys.time()
@@ -136,7 +136,8 @@ print("COMPLETE")
 # output to .csv
 print("writing csv...")
 
-    write.csv(spreads, paste("./output/", week_raw,"/Spreads_", Sys.Date(),".csv", sep = ""), 
+    write.csv(spreads, 
+              paste("./output/", week_raw, "/", Sys.Date(),"/espn_", Sys.Date() ,".csv", sep = ""), 
               row.names = FALSE)
     
 print("COMPLETE")        

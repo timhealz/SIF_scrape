@@ -11,12 +11,7 @@ system("./phantomjs scrape_oddshark.js")
 html = read_html('oddshark.html')
 
 # scrape week
-week_raw = html %>%
-    html_nodes(".header-text") %>%
-    html_text(trim = TRUE)
-dir.create(paste("./output/", week_raw, sep = ""))
-week = gsub(",", "", strsplit(week_raw, " ")[[1]][2])
-week = as.integer(as.character(week))
+week_raw = "Week 1, 2017"
 
 # scrape teams
 oddsshark_team_name = html %>%
@@ -30,28 +25,22 @@ lines = html %>%
 
 # clean lines data
 lines = gsub("EV", 0, lines)
-lines = as.numeric(as.character(lines))
-
-games = paste(oddsshark_team_name[c(TRUE,FALSE)], oddsshark_team_name[c(FALSE,TRUE)]) 
-spread = abs(lines[c(TRUE,FALSE)])
+matchup = paste(oddsshark_team_name[c(TRUE,FALSE)], oddsshark_team_name[c(FALSE,TRUE)], sep = "") 
+oddshark_spread = lines[c(TRUE,FALSE)]
 
 # bind scrapes into dataframe
-spreads = as.data.frame(cbind(games, spread), stringsAsFactors = FALSE)
+spreads = as.data.frame(cbind(matchup, oddshark_spread), 
+                        stringsAsFactors = FALSE)
+spreads$oddshark_spread = abs(as.numeric(spreads$oddshark_spread))
 
-# read teams and games mapping tables
-teams = read.csv('teams.csv', stringsAsFactors = FALSE)[, c('team_id', 'oddsshark_team')]
-games = read.csv('games.csv', stringsAsFactors = FALSE)[, c('game_id', 'home_id', 'away_id')]
-games = merge(games, teams, by.x = 'away_id' , by.y = 'team_id')
-games = merge(games, teams, by.x = 'home_id', by.y = 'team_id')
-games$games = paste(games$oddsshark_team.x, games$oddsshark_team.y)
-
-spreads = merge(spreads, games[,c('game_id', 'games')], by = 'games')
-spreads = spreads[,c("game_id", "spread")]
+# merge game_ids and add timestamp column
+map = read.csv("./maps/map1.csv", header = TRUE, stringsAsFactors = FALSE)[,c("game_id", "matchup")]
+spreads = merge(map, spreads, by = "matchup")
+spreads$update_ts = Sys.time()
 spreads = spreads[order(spreads$game_id),]
 
-# add underdog, week, and timestamp columns
-spreads$update_ts = Sys.time()
-
 # output to .csv
-write.csv(spreads, paste("./output/", week_raw,"/Spreads_", Sys.Date(),".csv", sep = ""), row.names = FALSE)
+write.csv(spreads, 
+          paste("./output/", week_raw, "/", Sys.Date(),"/oddshark_", Sys.Date() ,".csv", sep = ""),
+          row.names = FALSE)
 
