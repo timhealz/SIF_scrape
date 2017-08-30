@@ -19,7 +19,7 @@ oddshark = read.csv(
                                                                         "oddshark_spread")]
 
 dat = merge(espn, oddshark, by = "game_id", all.x = TRUE)
-dat = dat[order(dat$date, dat$time),]
+dat = dat[order(dat$game_id),]
 dat$update_ts = Sys.time()
 
 write.csv(dat, paste(out_path, "/", "Spreads_", Sys.Date(), ".csv", sep = ""), row.names = FALSE)
