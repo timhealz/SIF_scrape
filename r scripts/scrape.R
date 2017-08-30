@@ -11,6 +11,8 @@ espn = read.csv(
         paste(out_path, "/espn_", Sys.Date(), ".csv", sep = ""))[,c("game_id",
                                                                     "date",
                                                                     "time",
+                                                                    "home_short",
+                                                                    "away_short",
                                                                     "favorite",
                                                                     "espn_spread")]
 
