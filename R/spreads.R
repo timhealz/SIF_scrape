@@ -9,6 +9,6 @@ setwd(out_path)
 espn_spreads = read.csv('espn.csv', stringsAsFactors = FALSE)
 oddshark_spreads = read.csv('oddshark.csv', stringsAsFactors = FALSE)
 
-dat = merge(espn_spreads, oddshark_spreads, by = 'game_id')
+dat = merge(espn_spreads, oddshark_spreads, by = 'game_id', all = TRUE)
 write.csv(dat, "spreads.csv", row.names = FALSE)
 
