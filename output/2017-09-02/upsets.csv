@@ -1,5 +1,8 @@
-"away_team","away_score","home_team","home_score","favorite","final_spread","is.final","winner","is.upset","update.ts"
-"MD",51,"TEX",41,"TEX",18.5,"Final","MD",1,2017-09-02 15:48:30
-"CAL",35,"UNC",30,"UNC",13.5,"Final","CAL",1,2017-09-02 15:48:30
-"HAW",38,"UMASS",35,"UMASS",2.5,"Final","HAW",1,2017-09-02 15:48:30
-"TNST",17,"GAST",10,"GAST",15,"Final","TNST",1,2017-09-02 15:48:30
+"egame_id","game_id","away_team","away_score","home_team","home_score","favorite","final_spread","status","winner","is.upset","update.ts"
+400934489,30,"LIB",48,"BAY",45,"BAY",34,"Final","LIB",1,2017-09-02 20:22:44
+400934495,67,"MD",51,"TEX",41,"TEX",18.5,"Final","MD",1,2017-09-02 20:22:44
+400935256,53,"CAL",35,"UNC",30,"UNC",13.5,"Final","CAL",1,2017-09-02 20:22:44
+400938594,46,"M-OH",26,"MRSH",31,"M-OH",4,"Final","MRSH",1,2017-09-02 20:22:44
+400938887,2,"HAW",38,"UMASS",35,"UMASS",2.5,"Final","HAW",1,2017-09-02 20:22:44
+400938888,33,"UMASS",28,"CCU",38,"UMASS",2.5,"Final","CCU",1,2017-09-02 20:22:44
+400944826,10,"TNST",17,"GAST",10,"GAST",15,"Final","TNST",1,2017-09-02 20:22:44

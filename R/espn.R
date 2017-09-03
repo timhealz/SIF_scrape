@@ -3,7 +3,7 @@
 ###############################################################################################
 
 # setting working directories, loading libraries/functions and creating output folder
-setwd("~/G_WD/SIF_scrape2")
+setwd("~/G_WD/SIF_scrape")
 library(stringr)
 source("./R/functions/text.R")
 source("./R/functions/attr.R")
