@@ -92,78 +92,78 @@ game_id,egame_id,matchup,week
 91,400934497,West VirginiaVirginia Tech,1
 92,400933840,TennesseeGeorgia Tech,1
 93,400945253,Idaho StateUtah State,2
+142,400934503,Oklahoma StateSouth Alabama,2
 94,400935239,OhioPurdue,2
-95,400944893,Arkansas-Pine BluffAkron,2
+162,400935348,Florida AtlanticWisconsin,2
+127,400935243,CincinnatiMichigan,2
+133,400937456,LouisvilleNorth Carolina,2
+111,400941796,USFUCONN,2
+121,400934501,CharlotteKansas State,2
+161,400934505,East CarolinaWest Virginia,2
+112,400935240,NorthwesternDuke,2
+164,400934562,BuffaloArmy,2
+125,400935242,TowsonMaryland,2
+123,400933846,Eastern KentuckyKentucky,2
+136,400933848,Tennessee-MartinOle Miss,2
+119,400934499,IowaIowa State,2
+116,400937455,Jacksonville StateGeorgia Tech,2
+104,400937453,Wake ForestBoston College,2
+109,400935262,Texas StateColorado,2
+102,400938605,UABBall State,2
 96,400933841,Fresno StateAlabama,2
+139,400935245,PittsburghPenn State,2
+101,400937457,Miami-FLArkansas State,2
+158,400937460,DelawareVirginia Tech,2
+147,400934504,San Jose StateTexas,2
+165,400941794,TulaneNavy,2
+145,400941797,VillanovaTemple,2
 97,400944831,Savannah StateAppalachian State,2
+110,400945254,Abilene ChristianColorado State,2
+126,400944894,Austin PeayMiami-OH,2
+134,400944895,Eastern IllinoisNIU,2
+122,400944896,HowardKent State,2
+157,400935347,IndianaVirginia,2
+144,400937459,Middle TennesseeSyracuse,2
+153,400938602,Old DominionMassachusetts,2
+128,400935244,Western MichiganMichigan State,2
+140,400935246,Eastern MichiganRutgers,2
+100,400933842,TCUArkansas,2
+146,400933851,Indiana StateTennessee,2
+120,400934500,Central MichiganKansas,2
+156,400933853,Alabama A&MVanderbilt,2
+163,400945255,Gardner-WebbWyoming,2
+150,400941798,Louisiana-LafayetteTulsa,2
+137,400935264,NebraskaOregon,2
+152,400935261,HawaiiUCLA,2
+107,400935268,Weber StateCalifornia,2
+130,400937458,MarshallNC State,2
+166,400944832,New HampshireGeorgia Southern,2
+149,400944835,Alabama StateTroy,2
+105,400944897,South DakotaBowling Green,2
+95,400944893,Arkansas-Pine BluffAkron,2
+115,400937454,Louisiana-MonroeFlorida State,2
+108,400933843,AuburnClemson,2
+131,400944898,ToledoNevada,2
+117,400944833,UNLVIdaho,2
+141,400938601,North TexasSMU,2
+143,400938604,Southern UniversitySouthern Miss,2
+129,400933850,South CarolinaMissouri,2
+148,400933852,Nicholls StateTexas A&M,2
+135,400934502,OklahomaOhio State,2
+124,400933847,ChattanoogaLSU,2
+169,400933845,GeorgiaNotre Dame,2
+114,400933844,Northern ColoradoFlorida,2
+168,400933849,Mississippi StateLA Tech,2
+113,400938600,Alcorn StateFlorida International (FIU),2
+159,400935266,MontanaWashington,2
+155,400938603,RiceUTEP,2
+132,400944834,New Mexico StateNew Mexico,2
+151,400941795,MemphisUCF,2
+103,400934498,UTSABaylor,2
+118,400935241,WKUIllinois,2
+154,400935260,StanfordUSC,2
+138,400935265,MinnesotaOregon State,2
+106,400935263,UtahBYU,2
+160,400935267,Boise StateWashington State,2
 98,400935258,HoustonArizona,2
 99,400935259,San Diego StateArizona State,2
-100,400933842,TCUArkansas,2
-101,400937457,MiamiArkansas State,2
-102,400938605,UABBall State,2
-103,400934498,UT San AntonioBaylor,2
-104,400937453,Wake ForestBoston College,2
-105,400944897,South DakotaBowling Green,2
-106,400935263,UtahBYU,2
-107,400935268,Weber StateCalifornia,2
-108,400933843,AuburnClemson,2
-109,400935262,Texas StateColorado,2
-110,400945254,Abilene ChristianColorado State,2
-111,400941796,South FloridaConnecticut,2
-112,400935240,NorthwesternDuke,2
-113,400938600,Alcorn StateFlorida Intl,2
-114,400933844,Northern ColoradoFlorida,2
-115,400937454,Louisiana MonroeFlorida State,2
-116,400937455,Jacksonville StateGeorgia Tech,2
-117,400944833,UNLVIdaho,2
-118,400935241,Western KentuckyIllinois,2
-119,400934499,IowaIowa State,2
-120,400934500,Central MichiganKansas,2
-121,400934501,CharlotteKansas State,2
-122,400944896,HowardKent State,2
-123,400933846,Eastern KentuckyKentucky,2
-124,400933847,ChattanoogaLSU,2
-125,400935242,TowsonMaryland,2
-126,400944894,Austin PeayMiami (OH),2
-127,400935243,CincinnatiMichigan,2
-128,400935244,Western MichiganMichigan State,2
-129,400933850,South CarolinaMissouri,2
-130,400937458,MarshallNC State,2
-131,400944898,ToledoNevada,2
-132,400944834,New Mexico StateNew Mexico,2
-133,400937456,LouisvilleNorth Carolina,2
-134,400944895,Eastern IllinoisNorthern Illinois,2
-135,400934502,OklahomaOhio State,2
-136,400933848,UT MartinOle Miss,2
-137,400935264,NebraskaOregon,2
-138,400935265,MinnesotaOregon State,2
-139,400935245,PittsburghPenn State,2
-140,400935246,Eastern MichiganRutgers,2
-141,400938601,North TexasSMU,2
-142,400934503,Oklahoma StateSouth Alabama,2
-143,400938604,SouthernSouthern Mississippi,2
-144,400937459,Middle TennesseeSyracuse,2
-145,400941797,VillanovaTemple,2
-146,400933851,Indiana StateTennessee,2
-147,400934504,San José StateTexas,2
-148,400933852,NichollsTexas A&M,2
-149,400944835,Alabama StateTroy,2
-150,400941798,LouisianaTulsa,2
-151,400941795,MemphisUCF,2
-152,400935261,Hawai'iUCLA,2
-153,400938602,Old DominionUMass,2
-154,400935260,StanfordUSC,2
-155,400938603,RiceUTEP,2
-156,400933853,Alabama A&MVanderbilt,2
-157,400935347,IndianaVirginia,2
-158,400937460,DelawareVirginia Tech,2
-159,400935266,MontanaWashington,2
-160,400935267,Boise StateWashington State,2
-161,400934505,East CarolinaWest Virginia,2
-162,400935348,Florida AtlanticWisconsin,2
-163,400945255,Gardner-WebbWyoming,2
-164,400934562,BuffaloArmy,2
-165,400941794,TulaneNavy,2
-166,400944832,New HampshireGeorgia Southern,2
-168,400933849,Mississippi StateLouisiana Tech,2
-169,400933845,GeorgiaNotre Dame,2
