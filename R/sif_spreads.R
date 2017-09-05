@@ -2,7 +2,6 @@ setwd("~/G_WD/SIF_scrape")
 out_path = paste("./output/", Sys.Date(), sep = '')
 source("./R/espn.R")
 source("./R/oddshark.R")
-source("./R/scores.R")
 
 setwd(out_path)
 

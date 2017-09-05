@@ -19,31 +19,30 @@ print("running espn phantom js...")
     system("./phantomjs scrape_espn.js")
     html = read_html('./espn.html')
     
-    map = read.csv('map1.csv', header = TRUE, stringsAsFactors = FALSE)
+    map = read.csv('map.csv', header = TRUE, stringsAsFactors = FALSE)
 
 print("COMPLETE")
 
 # scrape espn game ids
-print("scraping espn game ids, dates and times...")
+print("scraping espn game ids...")
 
     egame_id = as.integer(na.omit(attr(".scoreboard", "id")))
-    
-    # scrape dates and times
-    dates = na.omit(attr(".date-time", "data-date"))
-    dates = as.POSIXct(substr(dates, 0, 10))
-    times = text(".time")
 
 print("COMPLETE")
 
 # loop to scrape lines and favorites
-print("scrape loop to pull lines and favorites...")
-    lines = character(0)
+print("scrape loop to pull times, lines and favorites...")
+    lines = character()
+    time = character()
     
     for(i in egame_id){
         line = text(paste("#", i,  " .line", sep = ""))
         line = paste(i, line, sep = " ")
         
+        times = text(paste("#", i,  " .time", sep = ""))
+        
         lines = append(lines, line)
+        time = append(time, times)
     }
     
     lines = as.data.frame(str_split_fixed(lines, " ", 3),
@@ -51,9 +50,13 @@ print("scrape loop to pull lines and favorites...")
                           row.names = FALSE)
     colnames(lines) = c("egame_id", "favorite", "espn_spread")
     lines$espn_spread = abs(as.numeric(lines$espn_spread))
+    lines = cbind(lines, time)
     
-    lines = lines[complete.cases(lines),]
-    lines = merge(map[,1:2], lines, by = "egame_id")
+    lines$time = gsub("ET", "", lines$time)
+    lines$time = substr(strptime(lines$time, "%I:%M %p" ),11,19)
+    
+    #lines = lines[complete.cases(lines),]
+    lines = merge(map[,1:2], lines, by = "egame_id", all.y = TRUE)
     lines = lines[order(lines$game_id),]
 
     write.csv(lines, paste(out_path,"/espn.csv", sep = ""), row.names = FALSE)

@@ -17,7 +17,7 @@ print("running oddshark phantom js...")
     system("./phantomjs scrape_oddshark.js")
     html = read_html('./oddshark.html')
     
-    map = read.csv('map1.csv', header = TRUE, stringsAsFactors = FALSE)
+    map = read.csv('map.csv', header = TRUE, stringsAsFactors = FALSE)
 
 print("COMPLETE")
 
@@ -49,7 +49,7 @@ print("cleaning data, timestamping, and writing .csv...")
 
     spreads = merge(map[,c('game_id', 'matchup')], 
                     spreads[,c('matchup', 'oddshark_spread')], 
-                    by = 'matchup')
+                    by = 'matchup', all.y = TRUE)
     spreads = spreads[complete.cases(spreads),][,2:3]
     spreads = spreads[order(spreads$game_id),]
     spreads$update.ts = Sys.time()

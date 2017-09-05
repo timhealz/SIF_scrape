@@ -44,8 +44,8 @@ scores$winner = ifelse(scores$away_score > scores$home_score, scores$away_team, 
 scores$is.upset = as.numeric(scores$winner != scores$favorite)
 scores$update.ts = Sys.time()
 
-map = read.csv('map1.csv', header = TRUE, stringsAsFactors = FALSE)
-scores = merge(map[,1:2], scores, by = "egame_id")
+map = read.csv('map.csv', header = TRUE, stringsAsFactors = FALSE)
+scores = merge(map[,1:2], scores, by = "egame_id", all.y = TRUE)
 upsets = subset(scores, scores$is.upset == TRUE)
 
 write.csv(scores, paste(out_path, "/scores.csv", sep = ""), row.names = FALSE)
