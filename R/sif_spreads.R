@@ -6,7 +6,9 @@ source("./R/oddshark.R")
 setwd(out_path)
 
 espn_spreads = read.csv('espn.csv', stringsAsFactors = FALSE)
+espn_spreads = espn_spreads[complete.cases(espn_spreads),]
 oddshark_spreads = read.csv('oddshark.csv', stringsAsFactors = FALSE)
+oddshark_spreads = oddshark_spreads[complete.cases(oddshark_spreads),]
 
 dat = merge(espn_spreads, oddshark_spreads, by = 'game_id', all = TRUE)
 write.csv(dat, "spreads.csv", row.names = FALSE)

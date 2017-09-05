@@ -50,7 +50,7 @@ print("cleaning data, timestamping, and writing .csv...")
     spreads = merge(map[,c('game_id', 'matchup')], 
                     spreads[,c('matchup', 'oddshark_spread')], 
                     by = 'matchup', all.y = TRUE)
-    spreads = spreads[complete.cases(spreads),][,2:3]
+    #spreads = spreads[complete.cases(spreads),][,2:3]
     spreads = spreads[order(spreads$game_id),]
     spreads$update.ts = Sys.time()
     
