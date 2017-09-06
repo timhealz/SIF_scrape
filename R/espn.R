@@ -42,17 +42,23 @@ print("scrape loop to pull times, lines and favorites...")
         line = paste(i, line, sep = " ")
         
         times = text(paste("#", i,  " .time", sep = ""))
+        times = paste(i, times, sep = " ")
         
         lines = append(lines, line)
         time = append(time, times)
     }
     
     lines = as.data.frame(str_split_fixed(lines, " ", 3),
-                          stringsAsFactors = FALSE,
-                          row.names = FALSE)
-    colnames(lines) = c("egame_id", "favorite", "espn_spread")
+                          stringsAsFactors = FALSE)
+    colnames(lines) = c("egame_id2", "favorite", "espn_spread")
     lines$espn_spread = abs(as.numeric(lines$espn_spread))
+    
+    time = as.data.frame(str_split_fixed(time, " ", 2),
+                         stringsAsFactors = FALSE)
+    colnames(time) = c("egame_id", "time")
+    
     lines = cbind(matchup, time, lines)
+    lines$egame_id2 = NULL
     
     lines$time = gsub("ET", "", lines$time)
     lines$time = substr(strptime(lines$time, "%I:%M %p" ),11,19)

@@ -7,7 +7,7 @@
 400935258,98,"Houston @ Arizona"," 22:30:00","HOU",1
 400935259,99,"San Diego State @ Arizona State"," 23:00:00","ASU",3.5
 400933842,100,"TCU @ Arkansas"," 15:30:00","TCU",3.5
-400937457,101,"Miami @ Arkansas State"," 15:30:00","MIAMI",14.5
+400937457,101,"Miami @ Arkansas State",NA,"",NA
 400938605,102,"UAB @ Ball State"," 15:00:00","BALL",14.5
 400934498,103,"UT San Antonio @ Baylor"," 20:00:00","BAY",16.5
 400937453,104,"Wake Forest @ Boston College"," 13:00:00","BC",1.5
@@ -21,7 +21,7 @@
 400935240,112,"Northwestern @ Duke"," 12:00:00","NW",3
 400938600,113,"Alcorn State @ Florida Intl"," 19:30:00","",NA
 400933844,114,"Northern Colorado @ Florida"," 19:30:00","",NA
-400937454,115,"Louisiana Monroe @ Florida State"," 19:00:00","FSU",33.5
+400937454,115,"Louisiana Monroe @ Florida State"," 12:00:00","FSU",33.5
 400937455,116,"Jacksonville State @ Georgia Tech"," 12:30:00","",NA
 400944833,117,"UNLV @ Idaho"," 19:00:00","IDHO",6.5
 400935241,118,"Western Kentucky @ Illinois"," 20:00:00","WKU",7.5
@@ -39,7 +39,7 @@
 400937458,130,"Marshall @ NC State"," 18:00:00","NCST",24.5
 400944898,131,"Toledo @ Nevada"," 19:00:00","TOL",9.5
 400944834,132,"New Mexico State @ New Mexico"," 20:00:00","UNM",7
-400937456,133,"Louisville @ North Carolina"," 12:00:00","LOU",9.5
+400937456,133,"Louisville @ North Carolina"," 12:00:00","LOU",10
 400944895,134,"Eastern Illinois @ Northern Illinois"," 15:30:00","",NA
 400934502,135,"Oklahoma @ Ohio State"," 19:30:00","OSU",7
 400933848,136,"UT Martin @ Ole Miss"," 12:00:00","",NA

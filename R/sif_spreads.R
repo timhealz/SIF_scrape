@@ -14,6 +14,13 @@ dat$spread = ifelse(is.na(dat$espn_spread), dat$oddshark_spread, dat$espn_spread
 dat$egame_id = NULL
 dat$update.ts = Sys.time()
 
-write.csv(dat, "all_spreads.csv", row.names = FALSE)
-write.csv(subset(dat, is.na(dat$spread)), "no_spreads.csv", row.names = FALSE)
+spreads = subset(dat, !is.na(dat$spread))
+nos = subset(dat, is.na(dat$spread))
 
+write.csv(dat, "all.csv", row.names = FALSE)
+write.csv(spreads, "spreads.csv", row.names = FALSE)
+write.csv(nos, "no_spreads.csv", row.names = FALSE)
+
+print(paste("Week 2 Games:", length(egame_id)))
+print(paste("Spreads Pulled:", nrow(spreads)))
+print(paste("Spreads Missing:", nrow(nos)))
