@@ -52,8 +52,7 @@ print("cleaning data, timestamping, and writing .csv...")
                     by = 'matchup', all.y = TRUE)
     #spreads = spreads[complete.cases(spreads),][,2:3]
     spreads = spreads[order(spreads$game_id),]
-    spreads$update.ts = Sys.time()
-    
+
     write.csv(spreads, 
               paste(out_path,"/oddshark.csv", sep = ""), 
               row.names = FALSE)

@@ -6,9 +6,14 @@ source("./R/oddshark.R")
 setwd(out_path)
 
 espn_spreads = read.csv('espn.csv', stringsAsFactors = FALSE)
-oddshark_spreads = read.csv('oddshark.csv', stringsAsFactors = FALSE)
+oddshark_spreads = read.csv('oddshark.csv', stringsAsFactors = FALSE)[,2:3]
 oddshark_spreads = oddshark_spreads[complete.cases(oddshark_spreads),]
 
 dat = merge(espn_spreads, oddshark_spreads, by = 'game_id', all = TRUE)
-write.csv(dat, "spreads.csv", row.names = FALSE)
+dat$spread = ifelse(is.na(dat$espn_spread), dat$oddshark_spread, dat$espn_spread)
+dat$egame_id = NULL
+dat$update.ts = Sys.time()
+
+write.csv(dat, "all_spreads.csv", row.names = FALSE)
+write.csv(subset(dat, is.na(dat$spread)), "no_spreads.csv", row.names = FALSE)
 

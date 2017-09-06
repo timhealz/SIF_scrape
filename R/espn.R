@@ -27,6 +27,8 @@ print("COMPLETE")
 print("scraping espn game ids...")
 
     egame_id = as.integer(na.omit(attr(".scoreboard", "id")))
+    teams = text(".sb-team-short")
+    matchup = paste(teams[c(TRUE, FALSE)], " @ ", teams[c(FALSE, TRUE)], sep = "")
 
 print("COMPLETE")
 
@@ -50,7 +52,7 @@ print("scrape loop to pull times, lines and favorites...")
                           row.names = FALSE)
     colnames(lines) = c("egame_id", "favorite", "espn_spread")
     lines$espn_spread = abs(as.numeric(lines$espn_spread))
-    lines = cbind(lines, time)
+    lines = cbind(matchup, time, lines)
     
     lines$time = gsub("ET", "", lines$time)
     lines$time = substr(strptime(lines$time, "%I:%M %p" ),11,19)
