@@ -1,4 +1,4 @@
-var url ='http://www.espn.com/college-football/scoreboard/_/group/80/year/2017/seasontype/2/week/2';
+var url ='http://www.espn.com/college-football/scoreboard/_/group/80/year/2017/seasontype/2/week/3';
 var page = new WebPage()
 var fs = require('fs');
 

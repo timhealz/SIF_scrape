@@ -167,3 +167,666 @@ game_id,egame_id,matchup,week
 160,400935267,Boise StateWashington State,2
 98,400935258,HoustonArizona,2
 99,400935259,San Diego StateArizona State,2
+game_id,egame_id,matchup,week
+170,400945256,New MexicoBoise State,3
+172,400941799,IllinoisUSF,3
+171,400941800,MassachusettsTemple,3
+173,400935269,ArizonaUTEP,3
+189,400937462,Miami-FLFlorida State,3
+192,400935350,Florida International (FIU)Indiana,3
+223,400937463,Georgia TechUCF,3
+198,400935352,Air ForceMichigan,3
+212,400934509,Oklahoma StatePittsburgh,3
+196,400935270,UCLAMemphis,3
+203,400935354,NIUNebraska,3
+218,400933862,Louisiana-LafayetteTexas A&M,3
+207,400934507,KansasOhio,3
+233,400934513,Delaware StateWest Virginia,3
+174,400934517,Iowa StateAkron,3
+229,400937467,UCONNVirginia,3
+202,400937465,FurmanNC State,3
+185,400934506,BaylorDuke,3
+222,400938612,Coastal CarolinaUAB,3
+184,400935271,Northern ColoradoColorado,3
+230,400937469,Utah StateWake Forest,3
+178,400944900,Tennessee TechBall State,3
+181,400935349,WisconsinBYU,3
+186,400937468,Virginia TechEast Carolina,3
+217,400934510,SMUTCU,3
+188,400933856,TennesseeFlorida,3
+216,400937466,Central MichiganSyracuse,3
+210,400937464,North CarolinaOld Dominion,3
+179,400934574,Notre DameBoston College,3
+213,400935357,Morgan StateRutgers,3
+199,400935353,Middle TennesseeMinnesota,3
+193,400935351,North TexasIowa,3
+177,400933855,MercerAuburn,3
+201,400933860,PurdueMissouri,3
+208,400934563,ArmyOhio State,3
+232,400935274,Oregon StateWashington State,3
+209,400934508,TulaneOklahoma,3
+183,400938606,North Carolina A&TCharlotte,3
+180,400944899,ColgateBuffalo,3
+187,400938607,Bethune-CookmanFlorida Atlantic,3
+195,400938609,Kent StateMarshall,3
+175,400933854,Colorado StateAlabama,3
+200,400933859,LSUMississippi State,3
+224,400938611,Southern MissLouisiana-Monroe,3
+227,400938613,Southern UniversityUTSA,3
+234,400938608,LA TechWKU,3
+237,400935273,OregonWyoming,3
+176,400944838,Arkansas-Pine BluffArkansas State,3
+235,400944839,IdahoWestern Michigan,3
+214,400944840,Alabama A&MSouth Alabama,3
+221,400941802,TulsaToledo,3
+219,400944836,Appalachian StateTexas State,3
+204,400945257,Idaho StateNevada,3
+211,400935356,Georgia StatePenn State,3
+190,400933857,SamfordGeorgia,3
+228,400933863,Kansas StateVanderbilt,3
+215,400933861,KentuckySouth Carolina,3
+206,400935355,Bowling GreenNorthwestern,3
+194,400937461,ClemsonLouisville,3
+191,400938610,RiceHouston,3
+205,400944837,TroyNew Mexico State,3
+197,400941801,CincinnatiMiami-OH,3
+220,400934512,Arizona StateTexas Tech,3
+225,400934511,TexasUSC,3
+231,400935275,Fresno StateWashington,3
+226,400935272,San Jose StateUtah,3
+238,400935276,StanfordSan Diego State,3
+182,400933858,Ole MissCalifornia,3
+239,400941803,TempleUSF,4
+241,400945258,VirginiaBoise State,4
+240,400935277,UtahArizona,4
+244,400934515,OklahomaBaylor,4
+251,400935281,WashingtonColorado,4
+276,400935364,MichiganPurdue,4
+274,400935363,UNLVOhio State,4
+263,400933867,SyracuseLSU,4
+269,400933868,AuburnMissouri,4
+290,400935283,NevadaWashington State,4
+260,400933866,FloridaKentucky,4
+243,400935278,OregonArizona State,4
+257,400935359,Georgia SouthernIndiana,4
+286,400934561,ArmyTulane,4
+253,400937472,NC StateFlorida State,4
+262,400937474,Kent StateLouisville,4
+283,400933870,MassachusettsTennessee,4
+259,400934514,West VirginiaKansas,4
+256,400934518,Texas TechHouston,4
+294,400933864,Texas A&MArkansas,4
+255,400937473,PittsburghGeorgia Tech,4
+287,400941807,New MexicoTulsa,4
+289,400937477,Old DominionVirginia Tech,4
+280,400944841,IdahoSouth Alabama,4
+252,400944902,OhioEastern Michigan,4
+264,400935361,UCFMaryland,4
+288,400933871,AlabamaVanderbilt,4
+249,400937470,Boston CollegeClemson,4
+246,400935279,USCCalifornia,4
+275,400934516,TCUOklahoma State,4
+266,400937475,ToledoMiami-FL,4
+281,400933869,LA TechSouth Carolina,4
+272,400937471,DukeNorth Carolina,4
+242,400937478,Wake ForestAppalachian State,4
+247,400944901,Miami-OHCentral Michigan,4
+295,400941804,CincinnatiNavy,4
+270,400935362,RutgersNebraska,4
+261,400944842,Louisiana-MonroeLouisiana-Lafayette,4
+285,400944818,AkronTroy,4
+248,400938614,Georgia StateCharlotte,4
+273,400938618,UABNorth Texas,4
+254,400933865,Mississippi StateGeorgia,4
+245,400938616,Florida AtlanticBuffalo,4
+292,400944903,WagnerWestern Michigan,4
+268,400938617,Bowling GreenMiddle Tennessee,4
+291,400938621,Ball StateWKU,4
+279,400941806,Arkansas StateSMU,4
+296,400945259,San Diego StateAir Force,4
+258,400935360,Penn StateIowa,4
+284,400938620,UTSATexas State,4
+278,400945260,Utah StateSan Jose State,4
+277,400938615,Florida International (FIU)Rice,4
+265,400941805,Southern IllinoisMemphis,4
+271,400938619,UTEPNew Mexico State,4
+267,400934575,Notre DameMichigan State,4
+293,400945261,HawaiiWyoming,4
+282,400935280,UCLAStanford,4
+298,400934521,TexasIowa State,5
+299,400937479,Miami-FLDuke,5
+300,400935365,NebraskaIllinois,5
+302,400945262,BYUUtah State,5
+301,400935284,USCWashington State,5
+303,400933872,Ole MissAlabama,5
+344,400937481,ClemsonVirginia Tech,5
+328,400935368,IndianaPenn State,5
+327,400935288,WashingtonOregon State,5
+330,400935369,Ohio StateRutgers,5
+337,400934520,Oklahoma StateTexas Tech,5
+347,400935370,NorthwesternWisconsin,5
+345,400937482,Florida StateWake Forest,5
+322,400933877,TroyLSU,5
+335,400933878,GeorgiaTennessee,5
+321,400937484,Murray StateLouisville,5
+305,400933874,Mississippi StateAuburn,5
+317,400934519,BaylorKansas State,5
+333,400935285,Arizona StateStanford,5
+309,400941810,USFEast Carolina,5
+312,400933875,VanderbiltFlorida,5
+340,400935286,ColoradoUCLA,5
+326,400935287,CaliforniaOregon,5
+323,400935366,IowaMichigan State,5
+324,400935367,MarylandMinnesota,5
+304,400933873,New Mexico StateArkansas,5
+319,400933876,Eastern MichiganKentucky,5
+336,400933879,South CarolinaTexas A&M,5
+306,400937480,Central MichiganBoston College,5
+315,400937483,North CarolinaGeorgia Tech,5
+325,400937485,SyracuseNC State,5
+329,400937486,RicePittsburgh,5
+308,400938625,MarshallCincinnati,5
+331,400941809,UCONNSMU,5
+334,400941811,HoustonTemple,5
+314,400941812,MemphisGeorgia State,5
+338,400941813,NavyTulsa,5
+348,400944845,Texas StateWyoming,5
+307,400944904,AkronBowling Green,5
+346,400944905,Ball StateWestern Michigan,5
+318,400944986,BuffaloKent State,5
+343,400945266,San Jose StateUNLV,5
+342,400938890,OhioMassachusetts,5
+349,400934566,UTEPArmy,5
+350,400934576,Miami-OHNotre Dame,5
+339,400941808,MaineUCF,5
+352,400945263,Air ForceNew Mexico,5
+332,400938626,North TexasSouthern Miss,5
+341,400944844,Coastal CarolinaLouisiana-Monroe,5
+311,400938622,CharlotteFlorida International (FIU),5
+310,400938623,Middle TennesseeFlorida Atlantic,5
+320,400938624,South AlabamaLA Tech,5
+313,400945265,NevadaFresno State,5
+353,400944987,NIUSan Diego State,5
+316,400945264,Colorado StateHawaii,5
+354,400944846,Arkansas StateGeorgia Southern,6
+355,400937487,LouisvilleNC State,6
+356,400941814,MemphisUCONN,6
+357,400945267,Boise StateBYU,6
+394,400933884,AlabamaTexas A&M,6
+384,400934523,Iowa StateOklahoma,6
+365,400937489,Wake ForestClemson,6
+400,400935290,Oregon StateUSC,6
+407,400935293,CaliforniaWashington,6
+376,400935372,Michigan StateMichigan,6
+383,400935375,MarylandOhio State,6
+378,400935373,WisconsinNebraska,6
+189,400981507,Miami-FLFlorida State,6
+369,400933882,LSUFlorida,6
+405,400933885,GeorgiaVanderbilt,6
+360,400933880,Ole MissAuburn,6
+361,400937488,Virginia TechBoston College,6
+393,400934524,Kansas StateTexas,6
+401,400935291,StanfordUtah,6
+392,400934522,West VirginiaTCU,6
+386,400935292,Washington StateOregon,6
+399,400945271,San Diego StateUNLV,6
+359,400944850,New Mexico StateAppalachian State,6
+375,400944989,Bowling GreenMiami-OH,6
+382,400944990,Central MichiganOhio,6
+396,400944991,Eastern MichiganToledo,6
+366,400944847,Georgia StateCoastal Carolina,6
+364,400941816,UCFCincinnati,6
+368,400941817,TempleEast Carolina,6
+370,400941818,SMUHouston,6
+397,400941819,TulsaTulane,6
+406,400937490,DukeVirginia,6
+391,400937491,PittsburghSyracuse,6
+398,400938630,LA TechUAB,6
+374,400933881,MissouriKentucky,6
+390,400933883,ArkansasSouth Carolina,6
+373,400934525,Texas TechKansas,6
+379,400934577,Notre DameNorth Carolina,6
+367,400935289,ArizonaColorado,6
+387,400935376,MinnesotaPurdue,6
+381,400935374,Penn StateNorthwestern,6
+372,400935371,IllinoisIowa,6
+377,400938628,Florida International (FIU)Middle Tennessee,6
+395,400944849,Louisiana-MonroeTexas State,6
+358,400944988,Ball StateAkron,6
+380,400944992,Kent StateNIU,6
+362,400944993,Western MichiganBuffalo,6
+408,400941815,Air ForceNavy,6
+402,400945268,Colorado StateUtah State,6
+371,400944848,Louisiana-LafayetteIdaho,6
+385,400938629,Florida AtlanticOld Dominion,6
+363,400938627,MarshallCharlotte,6
+388,400934564,ArmyRice,6
+404,400938676,Southern MissUTSA,6
+389,400945269,Fresno StateSan Jose State,6
+403,400938631,WKUUTEP,6
+409,400945270,HawaiiNevada,6
+410,400944851,South AlabamaTroy,7
+412,400937492,Georgia TechMiami-FL,7
+411,400944852,Texas StateLouisiana-Lafayette,7
+414,400937493,ClemsonSyracuse,7
+413,400935294,Washington StateCalifornia,7
+416,400933886,ArkansasAlabama,7
+465,400934528,OklahomaTexas,7
+458,400935297,UtahUSC,7
+418,400935296,WashingtonArizona State,7
+443,400935381,Ohio StateNebraska,7
+446,400934526,BaylorOklahoma State,7
+464,400935382,PurdueWisconsin,7
+424,400937495,Florida StateDuke,7
+437,400933889,AuburnLSU,7
+428,400933888,MissouriGeorgia,7
+436,400937494,Boston CollegeLouisville,7
+412,400981508,Georgia TechMiami-FL,7
+434,400934530,TCUKansas State,7
+451,400935299,OregonStanford,7
+459,400938891,MassachusettsUSF,7
+453,400933892,South CarolinaTennessee,7
+426,400933887,Texas A&MFlorida,7
+417,400935295,UCLAArizona,7
+448,400935298,ColoradoOregon State,7
+439,400935377,NorthwesternMaryland,7
+431,400935378,RutgersIllinois,7
+447,400933890,VanderbiltOle Miss,7
+442,400933891,BYUMississippi State,7
+433,400934527,KansasIowa State,7
+461,400934529,Texas TechWest Virginia,7
+444,400937496,VirginiaNorth Carolina,7
+449,400937497,NC StatePittsburgh,7
+456,400941820,East CarolinaUCF,7
+452,400941821,UCONNTemple,7
+454,400941822,HoustonTulsa,7
+440,400941823,NavyMemphis,7
+441,400935380,Michigan StateMinnesota,7
+419,400944854,Coastal CarolinaArkansas State,7
+421,400944996,NIUBuffalo,7
+423,400945274,NevadaColorado State,7
+432,400935379,MichiganIndiana,7
+466,400934567,Eastern MichiganArmy,7
+415,400945272,UNLVAir Force,7
+438,400938634,Old DominionMarshall,7
+420,400944997,OhioBowling Green,7
+422,400944998,ToledoCentral Michigan,7
+463,400944994,AkronWestern Michigan,7
+435,400944995,Miami-OHKent State,7
+460,400945276,WyomingUtah State,7
+462,400938632,CharlotteWKU,7
+430,400944853,Appalachian StateIdaho,7
+457,400944856,Georgia StateLouisiana-Monroe,7
+467,400944855,New Mexico StateGeorgia Southern,7
+455,400938635,Middle TennesseeUAB,7
+445,400938636,UTSANorth Texas,7
+450,400938637,UTEPSouthern Miss,7
+425,400938633,TulaneFlorida International (FIU),7
+427,400945275,New MexicoFresno State,7
+469,400945273,Boise StateSan Diego State,7
+429,400945277,San Jose StateHawaii,7
+470,400944857,Louisiana-LafayetteArkansas State,8
+471,400941824,MemphisHouston,8
+503,400938641,WKUOld Dominion,8
+472,400938674,MarshallMiddle Tennessee,8
+473,400945278,Air ForceNevada,8
+474,400945280,Colorado StateNew Mexico,8
+475,400933893,TennesseeAlabama,8
+493,400934534,OklahomaKansas State,8
+505,400935386,MichiganPenn State,8
+509,400934535,Oklahoma StateTexas,8
+490,400937500,LouisvilleFlorida State,8
+504,400933895,LSUOle Miss,8
+477,400933894,AuburnArkansas,8
+519,400937503,North CarolinaVirginia Tech,8
+495,400937502,SyracuseMiami-FL,8
+508,400934532,KansasTCU,8
+520,400935303,ColoradoWashington State,8
+512,400941829,USFTulane,8
+513,400935302,OregonUCLA,8
+480,400945279,WyomingBoise State,8
+502,400945002,Kent StateOhio,8
+481,400945003,NIUBowling Green,8
+476,400944858,Coastal CarolinaAppalachian State,8
+507,400944859,Louisiana-MonroeSouth Alabama,8
+491,400944860,TroyGeorgia State,8
+511,400944999,AkronToledo,8
+496,400945000,BuffaloMiami-OH,8
+484,400941826,SMUCincinnati,8
+485,400941827,TulsaUCONN,8
+487,400941828,BYUEast Carolina,8
+489,400938639,North TexasFlorida Atlantic,8
+518,400937498,Boston CollegeVirginia,8
+486,400937499,PittsburghDuke,8
+492,400937501,Wake ForestGeorgia Tech,8
+499,400933896,KentuckyMississippi State,8
+500,400933897,IdahoMissouri,8
+510,400934531,Iowa StateTexas Tech,8
+479,400934533,West VirginiaBaylor,8
+482,400935300,ArizonaCalifornia,8
+516,400935301,Arizona StateUtah,8
+497,400935383,IndianaMichigan State,8
+498,400935384,IllinoisMinnesota,8
+501,400935385,IowaNorthwestern,8
+521,400935388,MarylandWisconsin,8
+506,400935387,PurdueRutgers,8
+522,400934568,TempleArmy,8
+488,400945004,Western MichiganEastern Michigan,8
+478,400945001,Central MichiganBall State,8
+514,400938892,Georgia SouthernMassachusetts,8
+524,400941825,UCFNavy,8
+515,400945281,Utah StateUNLV,8
+483,400938638,UABCharlotte,8
+494,400938640,Southern MissLA Tech,8
+517,400938642,RiceUTSA,8
+525,400934578,USCNotre Dame,8
+526,400945282,Fresno StateSan Diego State,8
+529,400945005,Eastern MichiganNIU,9
+527,400945006,ToledoBall State,9
+528,400944861,South AlabamaGeorgia State,9
+530,400935304,StanfordOregon State,9
+531,400937504,Florida StateBoston College,9
+532,400941830,TulaneMemphis,9
+533,400941831,TulsaSMU,9
+561,400934539,Texas TechOklahoma,9
+539,400937505,Georgia TechClemson,9
+536,400935306,USCArizona State,9
+576,400935307,UCLAWashington,9
+577,400934537,Oklahoma StateWest Virginia,9
+575,400937507,LouisvilleWake Forest,9
+574,400937506,DukeVirginia Tech,9
+557,400937508,Miami-FLNorth Carolina,9
+551,400934536,Kansas StateKansas,9
+550,400934540,TCUIowa State,9
+535,400935305,Washington StateArizona,9
+572,400941832,CincinnatiUSF,9
+552,400933899,TennesseeKentucky,9
+546,400941833,East CarolinaHouston,9
+565,400935395,NebraskaPurdue,9
+540,400944863,Texas StateCoastal Carolina,9
+570,400944864,Georgia SouthernTroy,9
+579,400945285,New MexicoWyoming,9
+545,400945287,San Diego StateHawaii,9
+538,400945288,San Jose StateBYU,9
+564,400937509,VirginiaPittsburgh,9
+549,400935391,MinnesotaIowa,9
+554,400935392,IndianaMaryland,9
+541,400935308,CaliforniaColorado,9
+563,400935309,UtahOregon,9
+559,400935389,Michigan StateNorthwestern,9
+562,400933900,ArkansasOle Miss,9
+543,400933901,MissouriUCONN,9
+567,400933902,VanderbiltSouth Carolina,9
+569,400933903,Mississippi StateTexas A&M,9
+537,400934538,TexasBaylor,9
+534,400945007,BuffaloAkron,9
+555,400935393,RutgersMichigan,9
+548,400935390,WisconsinIllinois,9
+553,400938643,Florida International (FIU)Marshall,9
+542,400945283,Air ForceColorado State,9
+560,400935394,Penn StateOhio State,9
+580,400933898,GeorgiaFlorida,9
+571,400938893,Appalachian StateMassachusetts,9
+566,400938645,LA TechRice,9
+582,400934579,NC StateNotre Dame,9
+578,400938644,Florida AtlanticWKU,9
+547,400944865,Louisiana-MonroeIdaho,9
+558,400938646,Old DominionNorth Texas,9
+568,400938647,UABSouthern Miss,9
+573,400938648,UTSAUTEP,9
+556,400944862,Arkansas StateNew Mexico State,9
+544,400945286,UNLVFresno State,9
+583,400945284,Boise StateUtah State,9
+584,400945008,Bowling GreenKent State,10
+585,400945009,Miami-OHOhio,10
+586,400945010,Central MichiganWestern Michigan,10
+588,400945012,NIUToledo,10
+587,400945011,Ball StateEastern Michigan,10
+590,400941834,NavyTemple,10
+589,400944866,IdahoTroy,10
+593,400938675,MarshallFlorida Atlantic,10
+591,400941835,MemphisTulsa,10
+592,400935310,UCLAUtah,10
+594,400933904,LSUAlabama,10
+618,400934544,OklahomaOklahoma State,10
+615,400937510,ClemsonNC State,10
+633,400935311,ArizonaUSC,10
+611,400935399,Penn StateMichigan State,10
+637,400935313,OregonWashington,10
+610,400935398,MinnesotaMichigan,10
+605,400935397,Ohio StateIowa,10
+604,400935396,WisconsinIndiana,10
+601,400937511,SyracuseFlorida State,10
+603,400933906,South CarolinaGeorgia,10
+626,400933911,AuburnTexas A&M,10
+609,400937513,Virginia TechMiami-FL,10
+628,400934543,Kansas StateTexas Tech,10
+638,400935315,StanfordWashington State,10
+624,400934545,TexasTCU,10
+634,400941839,HoustonUSF,10
+625,400933910,Southern MissTennessee,10
+614,400933909,FloridaMissouri,10
+595,400935312,ColoradoArizona State,10
+598,400935314,Oregon StateCalifornia,10
+616,400935400,NorthwesternNebraska,10
+620,400935401,IllinoisPurdue,10
+640,400935402,MarylandRutgers,10
+636,400937512,Georgia TechVirginia,10
+596,400933905,Coastal CarolinaArkansas,10
+607,400933907,Ole MissKentucky,10
+613,400933908,MassachusettsMississippi State,10
+635,400933912,WKUVanderbilt,10
+606,400934541,BaylorKansas,10
+639,400934542,Iowa StateWest Virginia,10
+622,400941836,UCFSMU,10
+629,400941837,CincinnatiTulane,10
+599,400941838,East CarolinaUCONN,10
+630,400938653,RiceUAB,10
+623,400944869,Louisiana-LafayetteSouth Alabama,10
+597,400945289,NevadaBoise State,10
+602,400945292,BYUFresno State,10
+621,400945294,San Diego StateSan Jose State,10
+627,400944870,New Mexico StateTexas State,10
+631,400944867,Appalachian StateLouisiana-Monroe,10
+641,400944868,Georgia StateGeorgia Southern,10
+608,400938651,North TexasLA Tech,10
+642,400934569,ArmyAir Force,10
+644,400934580,Wake ForestNotre Dame,10
+619,400938649,CharlotteOld Dominion,10
+617,400945291,Utah StateNew Mexico,10
+632,400945293,HawaiiUNLV,10
+645,400945290,Colorado StateWyoming,10
+600,400938650,UTSAFlorida International (FIU),10
+612,400938652,UTEPMiddle Tennessee,10
+647,400945013,AkronMiami-OH,11
+646,400945014,Bowling GreenBuffalo,11
+648,400945015,Eastern MichiganCentral Michigan,11
+650,400945016,Kent StateWestern Michigan,11
+649,400945017,ToledoOhio,11
+652,400945018,Ball StateNIU,11
+651,400944871,Georgia SouthernAppalachian State,11
+653,400937514,North CarolinaPittsburgh,11
+654,400941840,TempleCincinnati,11
+655,400935316,WashingtonStanford,11
+656,400945299,BYUUNLV,11
+679,400933916,AlabamaMississippi State,11
+685,400934550,TCUOklahoma,11
+662,400937516,Florida StateClemson,11
+664,400935319,USCColorado,11
+676,400935404,MichiganMaryland,11
+684,400935407,Michigan StateOhio State,11
+670,400934548,Oklahoma StateIowa State,11
+700,400935409,IowaWisconsin,11
+674,400933914,ArkansasLSU,11
+659,400933913,GeorgiaAuburn,11
+673,400937518,VirginiaLouisville,11
+667,400937517,Virginia TechGeorgia Tech,11
+677,400934581,Notre DameMiami-FL,11
+671,400934547,West VirginiaKansas State,11
+697,400935320,Washington StateUtah,11
+680,400933917,TennesseeMissouri,11
+690,400933918,FloridaSouth Carolina,11
+696,400935318,Arizona StateUCLA,11
+658,400935317,Oregon StateArizona,11
+669,400935403,IndianaIllinois,11
+678,400935405,NebraskaMinnesota,11
+683,400935406,PurdueNorthwestern,11
+686,400933915,Louisiana-LafayetteOle Miss,11
+693,400933919,New MexicoTexas A&M,11
+699,400933920,KentuckyVanderbilt,11
+660,400937515,NC StateBoston College,11
+691,400937519,Wake ForestSyracuse,11
+701,400934549,Texas TechBaylor,11
+681,400945298,San Jose StateNevada,11
+689,400944872,Arkansas StateSouth Alabama,11
+694,400944873,Georgia StateTexas State,11
+663,400944874,TroyCoastal Carolina,11
+695,400941842,UCONNUCF,11
+665,400941843,TulaneEast Carolina,11
+657,400945295,WyomingAir Force,11
+687,400935408,RutgersPenn State,11
+703,400934565,DukeArmy,11
+661,400938654,Middle TennesseeCharlotte,11
+672,400938656,Florida AtlanticLA Tech,11
+705,400941841,SMUNavy,11
+688,400938659,Southern MissRice,11
+702,400938894,MaineMassachusetts,11
+682,400938658,UTEPNorth Texas,11
+692,400934546,KansasTexas,11
+675,400938657,WKUMarshall,11
+666,400938655,Old DominionFlorida International (FIU),11
+698,400938660,UABUTSA,11
+706,400945296,Boise StateColorado State,11
+668,400945297,Fresno StateHawaii,11
+708,400945019,Central MichiganKent State,12
+707,400945020,OhioAkron,12
+710,400945021,Eastern MichiganMiami-OH,12
+709,400945022,ToledoBowling Green,12
+711,400945023,Western MichiganNIU,12
+712,400945024,BuffaloBall State,12
+757,400941848,TulsaUSF,12
+714,400938665,Middle TennesseeWKU,12
+713,400945302,UNLVNew Mexico,12
+715,400933921,MercerAlabama,12
+733,400934553,OklahomaKansas,12
+722,400937521,The CitadelClemson,12
+756,400935323,UCLAUSC,12
+748,400935415,NebraskaPenn State,12
+764,400935324,UtahWashington,12
+766,400935416,MichiganWisconsin,12
+742,400935414,IllinoisOhio State,12
+743,400934552,Kansas StateOklahoma State,12
+728,400937523,Delaware StateFlorida State,12
+753,400933928,LSUTennessee,12
+729,400933925,KentuckyGeorgia,12
+735,400937524,SyracuseLouisville,12
+718,400933923,Louisiana-MonroeAuburn,12
+762,400937528,PittsburghVirginia Tech,12
+737,400937525,VirginiaMiami-FL,12
+751,400935325,CaliforniaStanford,12
+754,400934555,TCUTexas Tech,12
+727,400933924,UABFlorida,12
+758,400945303,HawaiiUtah State,12
+717,400944875,Texas StateArkansas State,12
+720,400945300,Air ForceBoise State,12
+734,400944878,New Mexico StateLouisiana-Lafayette,12
+752,400941844,UCFTemple,12
+725,400941845,CincinnatiEast Carolina,12
+755,400941846,HoustonTulane,12
+736,400941847,SMUMemphis,12
+724,400937522,Georgia TechDuke,12
+739,400937526,Western CarolinaNorth Carolina,12
+763,400937527,NC StateWake Forest,12
+716,400933922,Mississippi StateArkansas,12
+745,400933926,Texas A&MOle Miss,12
+749,400933927,WoffordSouth Carolina,12
+761,400933929,MissouriVanderbilt,12
+719,400934551,Iowa StateBaylor,12
+765,400934554,TexasWest Virginia,12
+746,400935321,ArizonaOregon,12
+747,400935322,Arizona StateOregon State,12
+731,400935410,RutgersIndiana,12
+732,400935411,PurdueIowa,12
+738,400935412,MarylandMichigan State,12
+741,400935413,MinnesotaNorthwestern,12
+744,400938666,RiceOld Dominion,12
+767,400945304,Fresno StateWyoming,12
+770,400944877,South AlabamaGeorgia Southern,12
+721,400938895,MassachusettsBYU,12
+759,400938663,LA TechUTEP,12
+750,400938661,CharlotteSouthern Miss,12
+771,400934582,NavyNotre Dame,12
+723,400945301,San Jose StateColorado State,12
+730,400944876,Coastal CarolinaIdaho,12
+740,400934571,ArmyNorth Texas,12
+768,400937520,Boston CollegeUCONN,12
+726,400938662,Florida International (FIU)Florida Atlantic,12
+760,400938664,MarshallUTSA,12
+772,400945305,NevadaSan Diego State,12
+775,400945025,Bowling GreenEastern Michigan,13
+773,400945026,Kent StateAkron,13
+774,400945027,Miami-OHBall State,13
+776,400933930,Ole MissMississippi State,13
+787,400937530,Virginia TechVirginia,13
+781,400937529,Miami-FLPittsburgh,13
+785,400941849,USFUCF,13
+778,400945028,NIUCentral Michigan,13
+777,400945029,OhioBuffalo,13
+784,400945030,Western MichiganToledo,13
+779,400941850,NavyHouston,13
+826,400944883,Texas StateTroy,13
+782,400934556,BaylorTCU,13
+791,400933931,MissouriArkansas,13
+788,400945308,New MexicoSan Diego State,13
+780,400935417,IowaNebraska,13
+795,400938668,WKUFlorida International (FIU),13
+783,400934557,Texas TechTexas,13
+786,400935326,CaliforniaUCLA,13
+792,400933932,AlabamaAuburn,13
+814,400934560,West VirginiaOklahoma,13
+822,400933937,ClemsonSouth Carolina,13
+806,400935419,Penn StateMaryland,13
+832,400935330,Washington StateWashington,13
+815,400934559,KansasOklahoma State,13
+810,400935421,WisconsinMinnesota,13
+796,400933933,Florida StateFlorida,13
+804,400933936,Texas A&MLSU,13
+798,400933934,GeorgiaGeorgia Tech,13
+801,400933935,LouisvilleKentucky,13
+800,400934558,Iowa StateKansas State,13
+823,400934583,Notre DameStanford,13
+825,400933938,VanderbiltTennessee,13
+816,400935327,Oregon StateOregon,13
+790,400935328,ArizonaArizona State,13
+830,400935329,ColoradoUtah,13
+803,400938669,UTSALA Tech,13
+817,400935422,IndianaPurdue,13
+819,400935423,Michigan StateRutgers,13
+828,400938673,UTEPUAB,13
+799,400935418,NorthwesternIllinois,13
+824,400937531,Boston CollegeSyracuse,13
+831,400937532,DukeWake Forest,13
+811,400937533,North CarolinaNC State,13
+820,400945309,WyomingSan Jose State,13
+802,400944881,Georgia SouthernLouisiana-Lafayette,13
+794,400941851,UCONNCincinnati,13
+807,400941852,East CarolinaMemphis,13
+827,400941853,TempleTulsa,13
+821,400941854,TulaneSMU,13
+797,400944879,Appalachian StateGeorgia State,13
+789,400945306,Utah StateAir Force,13
+808,400935420,Ohio StateMichigan,13
+818,400938672,North TexasRice,13
+793,400938667,Florida AtlanticCharlotte,13
+805,400938670,Southern MissMarshall,13
+809,400938671,Old DominionMiddle Tennessee,13
+829,400944880,Arkansas StateLouisiana-Monroe,13
+812,400945311,UNLVNevada,13
+833,400945307,Boise StateFresno State,13
+813,400944882,IdahoNew Mexico State,13
+834,400945310,BYUHawaii,13
+835,400944884,Louisiana-LafayetteAppalachian State,14
+836,400944885,TroyArkansas State,14
+837,400944886,Georgia SouthernCoastal Carolina,14
+838,400944887,IdahoGeorgia State,14
+839,400944888,South AlabamaNew Mexico State,14
